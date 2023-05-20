@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
         //coiote
         //coiote2
         //coiote3
+        //coiote4
     }
 
     // Update is called once per frame
