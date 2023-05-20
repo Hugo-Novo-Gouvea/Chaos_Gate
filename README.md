@@ -1,7 +1,7 @@
 # Project_gamedev
 
 como adicionar no git
--- Verificar se estar na pasta correta
+- Verificar se estar na pasta correta
 -- git init
 -- git add .
 -- git commit -m "mensagem"
