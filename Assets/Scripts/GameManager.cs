@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         //coiote
+        //coiote2
     }
 
     // Update is called once per frame
