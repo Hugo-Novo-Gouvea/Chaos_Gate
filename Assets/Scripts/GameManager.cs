@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
         //coiote2
         //coiote3
         //coiote4
+        //coiote5
         //coiote6
     }
 
