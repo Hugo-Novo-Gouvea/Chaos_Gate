@@ -2,16 +2,16 @@
 
 como adicionar no git
 - Verificar se estar na pasta correta
--- git init
--- git add .
--- git commit -m "mensagem"
--- git push origin main
--- git pull origin main
+- git init
+- git add .
+- git commit -m "mensagem"
+- git push origin main
+- git pull origin main
 
-exclus„o de arquivo no Git 
--- Excluir pelo diretorio de arquivos
--- Verificar se estar na pasta correta
--- git init
--- git add .
--- git commit -m "mensagem"
--- git push origin main
+exclus√£o de arquivo no Git 
+- Excluir pelo diretorio de arquivos
+- Verificar se estar na pasta correta
+- git init
+- git add .
+- git commit -m "mensagem"
+- git push origin main
