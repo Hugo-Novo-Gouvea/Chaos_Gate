@@ -10,10 +10,12 @@ public class SpawnEnemy : MonoBehaviour
     private int enemyNumMax = 0, enemyNum, Rn;
 
     float time1, time2;
-    
+
+    public int timeSpawn;
+
     void Awake()
     {
-        attEnemyNum();
+        attEnemyNum(10);
     }
 
     void Start()
@@ -26,7 +28,7 @@ public class SpawnEnemy : MonoBehaviour
     {
         time1 = Time.time;
 
-        if(enemyNum > 0 && time1 >= time2 + 1)
+        if(enemyNum > 0 && time1 >= time2 + timeSpawn)
         {
             Rn = Random.Range(1, 5);
             if (Rn == 1)
@@ -45,9 +47,9 @@ public class SpawnEnemy : MonoBehaviour
 
     }
 
-    void attEnemyNum()
+    void attEnemyNum(int num)
     {
-        enemyNumMax = enemyNumMax + 10;
+        enemyNumMax = num;
     }
 
     void Spawn(Transform pos)
