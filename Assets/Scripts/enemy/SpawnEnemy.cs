@@ -8,10 +8,11 @@ public class SpawnEnemy : MonoBehaviour
     public Transform Spawns1, Spawns2, Spawns3, Spawns4;
 
     private int enemyNumMax = 0, enemyNum, Rn;
+    private bool speed = true;
 
     float time1, time2;
 
-    public int timeSpawn;
+    public float timeSpawn;
 
     void Awake()
     {
@@ -43,6 +44,12 @@ public class SpawnEnemy : MonoBehaviour
             time2 = Time.time;
         }
 
+        if(enemyNum <= enemyNumMax - 5 && speed)
+        {
+            timeSpawn = timeSpawn/2;
+            speed = false;
+        }
+
 
 
     }
@@ -50,6 +57,7 @@ public class SpawnEnemy : MonoBehaviour
     void attEnemyNum(int num)
     {
         enemyNumMax = num;
+        enemyNum = enemyNumMax;
     }
 
     void Spawn(Transform pos)
