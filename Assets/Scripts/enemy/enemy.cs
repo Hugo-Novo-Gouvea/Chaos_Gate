@@ -24,6 +24,15 @@ public class enemy : MonoBehaviour
     void Update()
     {
         navMesh.SetDestination(player.transform.position);
+    }
+
+    void damage()
+    {
+        GetComponent<statusEnemy>().currentHealth -= 1;
+        if(GetComponent<statusEnemy>().currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
 
     }
 }

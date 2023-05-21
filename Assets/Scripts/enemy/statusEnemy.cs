@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class statusEnemy : MonoBehaviour
 {
-    int currentHealth, maxHealth;
-    float speed;
+    public int currentHealth, maxHealth;
+    public float speed;
 
 
     void Start()
