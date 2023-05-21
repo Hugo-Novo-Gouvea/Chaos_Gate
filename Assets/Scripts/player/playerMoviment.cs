@@ -6,7 +6,8 @@ public class playerMoviment : MonoBehaviour
 {
 
     private Camera mainCam;
-    public Vector3 mousePos;
+    private Vector3 mousePos;
+
     
     Rigidbody2D rb;
 
