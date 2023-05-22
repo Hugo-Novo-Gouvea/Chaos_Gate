@@ -6,13 +6,14 @@ using UnityEngine.AI;
 
 public class enemy : MonoBehaviour
 {
-    private GameObject player;
+    private GameObject gameMan, player;
     private NavMeshAgent navMesh;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        gameMan = GameObject.FindWithTag("GameController");
         player = GameObject.FindWithTag("Player");
         navMesh = GetComponent<NavMeshAgent>();
         navMesh.updateRotation = false;
@@ -31,6 +32,7 @@ public class enemy : MonoBehaviour
         GetComponent<statusEnemy>().currentHealth -= 1;
         if(GetComponent<statusEnemy>().currentHealth <= 0)
         {
+            gameMan.GetComponent<GameManager>().coin ++;
             Destroy(gameObject);
         }
 
