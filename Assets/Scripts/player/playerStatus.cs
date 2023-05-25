@@ -17,11 +17,14 @@ public class playerStatus : MonoBehaviour
 
     void Start()
     {
-        maxUpgrades = 5;
         initialMaxHealth = 3;
         initialFireRatio = 1;
         initialFireDamage = 1;
         currentHealth = initialMaxHealth;
+
+        fireDamageUpgrades = new int[maxUpgrades];
+        maxHealthUpgrades = new int[maxUpgrades];
+        fireRatioUpgrades = new float[maxUpgrades];
 
         for (int i = 0; i < maxUpgrades; i++)
         {
