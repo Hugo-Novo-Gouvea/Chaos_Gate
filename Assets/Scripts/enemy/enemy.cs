@@ -25,6 +25,7 @@ public class enemy : MonoBehaviour
     void Update()
     {
         navMesh.SetDestination(player.transform.position);
+        damage();
     }
 
     void damage()
