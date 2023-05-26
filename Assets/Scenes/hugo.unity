@@ -355,6 +355,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 194721a2a145e4b469f97da61b39855e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  bullet: {fileID: 1208987628461467857, guid: 94af90ce64eb2d54c822db2e8ff8de9f, type: 3}
+  bulletPos: {fileID: 1587549781}
+>>>>>>> a5fbd1a059e8723a3febef5b3e190c7624ed9f66
 --- !u!114 &1390730376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,7 +372,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f85763afc1afe545aa658387dd09e5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   maxUpgrades: 5
+=======
+  maxUpgrades: 0
+>>>>>>> a5fbd1a059e8723a3febef5b3e190c7624ed9f66
   fireDamageUpgrades: 
   maxHealthUpgrades: 
   fireRatioUpgrades: []

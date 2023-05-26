@@ -54,7 +54,7 @@ public class SpawnEnemy : MonoBehaviour
 
     }
 
-    void attEnemyNum(int num)
+    public void attEnemyNum(int num)
     {
         enemyNumMax = num;
         enemyNum = enemyNumMax;

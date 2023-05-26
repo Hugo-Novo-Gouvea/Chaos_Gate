@@ -32,6 +32,10 @@ public class playerStatus : MonoBehaviour
             fireRatioUpgrades[i] = 0;
             maxHealthUpgrades[i] = 0;
         }
+
+        maxHealth = initialMaxHealth;
+        fireRatio = initialFireRatio;
+        fireDamage = initialFireDamage;
     }
 
     public void fireDamageUp()
@@ -62,5 +66,10 @@ public class playerStatus : MonoBehaviour
         }
 
         maxHealth = initialMaxHealth + maxHealthUpgradesSum;
+    }
+
+    public float getFireRatio()
+    {
+        return fireRatio;
     }
 }
