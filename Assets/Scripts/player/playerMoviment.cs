@@ -8,8 +8,13 @@ public class playerMoviment : MonoBehaviour
     private Camera mainCam;
     private Vector3 mousePos;
 
+    private float timeShoot1 = 0,timeShoot2 = 0;
+
     
     Rigidbody2D rb;
+
+    public GameObject bullet;
+    public Transform bulletPos;
 
     void Start()
     {
@@ -50,6 +55,20 @@ public class playerMoviment : MonoBehaviour
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
+
+
+        // Player Shoot
+
+        timeShoot1 = Time.time;
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            if(timeShoot1>=timeShoot2)
+            {
+                Instantiate(bullet,bulletPos.position,transform.rotation);
+                timeShoot1 = Time.time;
+                timeShoot2 = Time.time + GetComponent<playerStatus>().getFireRatio();
+            }
+        }
 
     }
 

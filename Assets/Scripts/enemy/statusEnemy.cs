@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class statusEnemy : MonoBehaviour
 {
-    public int currentHealth, maxHealth, initialMaxHealth, maxHealthUpgradesSum;
+    private GameObject gameMan;
+
+    int currentHealth, maxHealth, initialMaxHealth, maxHealthUpgradesSum;
     float speed, initialSpeed, speedUpgradesSum;
 
     public int maxUpgrades;
@@ -16,6 +18,8 @@ public class statusEnemy : MonoBehaviour
 
     void Start()
     {
+        gameMan = GameObject.FindWithTag("GameController");
+
         initialMaxHealth = 3;
         initialSpeed = 4;
         currentHealth = initialMaxHealth;
@@ -49,5 +53,16 @@ public class statusEnemy : MonoBehaviour
         }
 
         speed = initialSpeed + speedUpgradesSum;
+    }
+
+    void damage()
+    {
+        currentHealth -= 1;
+        if(currentHealth <= 0)
+        {
+            gameMan.GetComponent<GameManager>().coin ++;
+            Destroy(gameObject);
+        }
+
     }
 }
