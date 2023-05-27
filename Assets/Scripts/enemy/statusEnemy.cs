@@ -69,8 +69,17 @@ public class statusEnemy : MonoBehaviour
         if(currentHealth <= 0)
         {
             gameMan.GetComponent<GameManager>().coin ++;
-            Destroy(gameObject);
+            Destroy(gameObject,0);
+            Debug.Log("teste");
         }
 
+    }
+
+    void OnTriggerEnter2D(Collider2D colisor)
+    {
+        if(colisor.gameObject.tag == "bullet")
+        {
+            damage();
+        }
     }
 }
