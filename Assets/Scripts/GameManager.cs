@@ -121,6 +121,11 @@ public class GameManager : MonoBehaviour
         return maxHealth;
     }
 
+    public int getDamage()
+    {
+        return damage;
+    }
+
     public float getSpeed()
     {
         return speed;

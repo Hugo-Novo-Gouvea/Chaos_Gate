@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerStatus : MonoBehaviour
 {
-    GameObject damageShop, fireRatioShop, healthShop;
+    GameObject damageShop, fireRatioShop, healthShop,gameMan;
     damageShop nDamageUpgrades;
     fireRatioShop nFireRatioUpgrades;
     healthShop nHealthUpgrades;
@@ -21,6 +22,8 @@ public class playerStatus : MonoBehaviour
     public int[] fireDamageUpgrades, maxHealthUpgrades;
     public float[] fireRatioUpgrades;
 
+    public string cenaMorte;
+
 
     void Start()
     {
@@ -32,6 +35,8 @@ public class playerStatus : MonoBehaviour
 
         healthShop = GameObject.Find("healthShop");
         nHealthUpgrades = healthShop.GetComponent<healthShop>();
+
+        gameMan = GameObject.FindWithTag("GameController");
 
         maxDamageUpgrades = nDamageUpgrades.maxUpgrades;
         maxFireRatioUpgrades = nFireRatioUpgrades.maxUpgrades;
@@ -134,5 +139,22 @@ public class playerStatus : MonoBehaviour
     public float getFireRatio()
     {
         return fireRatio;
+    }
+
+    void takeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if(currentHealth <= 0)
+        {
+            SceneManager.LoadScene(cenaMorte);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if(collider.gameObject.tag == "Enemy")
+        {
+            takeDamage(gameMan.GetComponent<GameManager>().getDamage());
+        }
     }
 }
