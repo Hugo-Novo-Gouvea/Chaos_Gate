@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b2a73041648a7346b173408596a0377
+guid: 16f1a8db24497dd439a27fca7f24d073
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,11 +105,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rua_destruida_0
+      name: rua_destruida2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -119,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 060f1ffc51db46f468ab01858ae8d0f1
-      internalID: 1643643939
+      spriteID: bd05d01ecef32b34ca1117881390e86d
+      internalID: -847773426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_1
+      name: rua_destruida2_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -140,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94d8d0e172def96478a87c0dbff80eff
-      internalID: -1506743566
+      spriteID: 4dd0521aaf521214a9cb829e60ece073
+      internalID: 1831441802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_2
+      name: rua_destruida2_2
       rect:
         serializedVersion: 2
         x: 128
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -161,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9111d81690343bf46a8ace6bcd7e3f72
-      internalID: 1404182638
+      spriteID: 314fc2a5508501748a53130ba4340454
+      internalID: 326554800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_3
+      name: rua_destruida2_3
       rect:
         serializedVersion: 2
         x: 192
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -182,18 +182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc5850b7d985054391e6621c9ea7bf1
-      internalID: 59001953
+      spriteID: 5b9b5bcce73a1304fa8e16e81b22d55f
+      internalID: -1422029043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_4
+      name: rua_destruida2_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -203,18 +203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82aa6d00a467e5e4a8a1cacc4f1b8256
-      internalID: -57968284
+      spriteID: 3b16394a4df65ac43b528097427558e7
+      internalID: -1091730336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_5
+      name: rua_destruida2_5
       rect:
         serializedVersion: 2
         x: 320
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -224,18 +224,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beaeee5e3cd4ff64d8e4e51d59b0b571
-      internalID: 944813416
+      spriteID: e018876c282be55408daf9d2162de057
+      internalID: -194465099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_6
+      name: rua_destruida2_6
       rect:
         serializedVersion: 2
         x: 384
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -245,18 +245,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cfe1fc1eb66ec846a8fa63106667cc1
-      internalID: -1510843609
+      spriteID: 7ffa721ef3cb0e448adf84b4e5a3309f
+      internalID: 1025686466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_7
+      name: rua_destruida2_7
       rect:
         serializedVersion: 2
         x: 448
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -266,18 +266,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 067b00bcd87a39b449d735780d4084fc
-      internalID: -968819799
+      spriteID: 86973157502e54d4da510b9374097fea
+      internalID: 1371727283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_8
+      name: rua_destruida2_8
       rect:
         serializedVersion: 2
         x: 512
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -287,18 +287,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e846eadda76ed94b8257c9618056747
-      internalID: 1373869482
+      spriteID: 8c9a445e1892e2e459909ca1ecb18894
+      internalID: 1180541006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_9
+      name: rua_destruida2_9
       rect:
         serializedVersion: 2
         x: 576
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -308,18 +308,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe3300ac53d53a4b88a0d2b3d3911cd
-      internalID: 165834166
+      spriteID: e3191fd594d16c543b371e6120978fc5
+      internalID: -1672877230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_10
+      name: rua_destruida2_10
       rect:
         serializedVersion: 2
         x: 640
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -329,18 +329,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5db2d022b8f8fc242b877d38f33f1243
-      internalID: -488180961
+      spriteID: 17b8d221695c91f41a12aeb248972f10
+      internalID: 1119209650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_11
+      name: rua_destruida2_11
       rect:
         serializedVersion: 2
         x: 704
-        y: 736
+        y: 640
         width: 64
         height: 64
       alignment: 0
@@ -350,18 +350,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7cb8a2d70f2bd84faffed600f92a8e7
-      internalID: 1445760319
+      spriteID: 69a63f9f8a53b1947ba3ed8d9eff6df9
+      internalID: 1448125980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_24
+      name: rua_destruida2_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -371,18 +371,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2de1912d6e9b4347bf7641e364c204a
-      internalID: -758885311
+      spriteID: da7100a10279a5e40b8c603aa552c9ae
+      internalID: -79643653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_25
+      name: rua_destruida2_13
       rect:
         serializedVersion: 2
         x: 64
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -392,18 +392,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc4df805e6a10b4d96606a67531d793
-      internalID: 741816630
+      spriteID: 4c17884df107c5d4ca5468bf8624505b
+      internalID: 1382540559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_26
+      name: rua_destruida2_14
       rect:
         serializedVersion: 2
         x: 128
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -413,18 +413,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43cac9f124a6ff14cb004e60f0b700f1
-      internalID: -1528168731
+      spriteID: 1b2f289db7dad8c48beffde055cb240c
+      internalID: 1870784811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_27
+      name: rua_destruida2_15
       rect:
         serializedVersion: 2
         x: 192
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -434,18 +434,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58eb29d6338b51b42ac0d4ec34c93520
-      internalID: 1944009995
+      spriteID: d8556dcf6b518bd4191f1d5b362bfac0
+      internalID: 1245574905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_28
+      name: rua_destruida2_16
       rect:
         serializedVersion: 2
         x: 256
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -455,18 +455,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4658bce4530018e49b4cb3004392529c
-      internalID: 1585868208
+      spriteID: 3cba69f40a732eb479842b286d3a6373
+      internalID: -257950902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_29
+      name: rua_destruida2_17
       rect:
         serializedVersion: 2
         x: 320
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -476,18 +476,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf9866c7433af3745907d593403d883d
-      internalID: 149344214
+      spriteID: d5ec4901624b29a4b8c183492bc5fb52
+      internalID: -1522367222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_30
+      name: rua_destruida2_18
       rect:
         serializedVersion: 2
         x: 384
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -497,18 +497,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 557d8611cf2a495428c0cb4b07d7f2c4
-      internalID: -1537851329
+      spriteID: c8cee72d34d91e149af92243c4181aa4
+      internalID: 327636734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_31
+      name: rua_destruida2_19
       rect:
         serializedVersion: 2
         x: 448
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -518,18 +518,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7376e3e0658f807449f02408efac0d1e
-      internalID: -792190217
+      spriteID: 44c4224fedb2cb847bc9442f16018d7d
+      internalID: 686865904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_32
+      name: rua_destruida2_20
       rect:
         serializedVersion: 2
         x: 512
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -539,18 +539,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e71c998f4f35c3e498c2d6a382e58add
-      internalID: -665264337
+      spriteID: 59f350d74aad6b742b39990e3fee4547
+      internalID: 1415724372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_33
+      name: rua_destruida2_21
       rect:
         serializedVersion: 2
         x: 576
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -560,18 +560,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02a36031cee0ca04aaec9f18bd4c4183
-      internalID: -544267739
+      spriteID: 401fb46eed6539047bce1eefb11d5b0b
+      internalID: -826179638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_34
+      name: rua_destruida2_22
       rect:
         serializedVersion: 2
         x: 640
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -581,18 +581,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e34e8b32f7b0548b0a9c5bed5ea61f
-      internalID: 1700342013
+      spriteID: 476330ea0db78b34cb76a541828c9377
+      internalID: 351084048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_35
+      name: rua_destruida2_23
       rect:
         serializedVersion: 2
         x: 704
-        y: 672
+        y: 576
         width: 64
         height: 64
       alignment: 0
@@ -602,18 +602,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb3519cc5741994e965f12f8c28f41b
-      internalID: 748191249
+      spriteID: 1cba7bb773db35743bcd20012247c244
+      internalID: -656742353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_48
+      name: rua_destruida2_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -623,18 +623,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3305c74e658750a4ebac954652fa87a3
-      internalID: -636097422
+      spriteID: c65c031c679067c4bb78507a8f9806ef
+      internalID: 1494015645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_49
+      name: rua_destruida2_25
       rect:
         serializedVersion: 2
         x: 64
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -644,18 +644,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 054013dba81a1c343af4e23138d9f74f
-      internalID: -1126531394
+      spriteID: 15b508fbd864a20438dd91d623fd9cdb
+      internalID: -1718987643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_50
+      name: rua_destruida2_26
       rect:
         serializedVersion: 2
         x: 128
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -665,18 +665,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccfc5a6155b4ad14884223b92540c091
-      internalID: -1172236661
+      spriteID: 8556f696010642f43b17c86e77030b89
+      internalID: 1674162248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_51
+      name: rua_destruida2_27
       rect:
         serializedVersion: 2
         x: 192
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -686,18 +686,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35bdaf07907a6a442b0714675e1ed55e
-      internalID: -531286815
+      spriteID: 03f0ffc47b220f94b95050e0b0721c32
+      internalID: -482587381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_52
+      name: rua_destruida2_28
       rect:
         serializedVersion: 2
         x: 256
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -707,18 +707,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0775fb7da92584aaf6e0b6ea022380
-      internalID: -318621107
+      spriteID: 8df9c0b370cc71c47962deb6156867ea
+      internalID: 1772531141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_53
+      name: rua_destruida2_29
       rect:
         serializedVersion: 2
         x: 320
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -728,18 +728,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48188b9674a91534883771ddd778410b
-      internalID: -590002130
+      spriteID: 21cbacfbdcf7e114ab0373050cb89251
+      internalID: 21353613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_54
+      name: rua_destruida2_30
       rect:
         serializedVersion: 2
         x: 384
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -749,18 +749,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3ad9c7de6681b044b160071e988a23c
-      internalID: -1253655054
+      spriteID: 6f9170a8cca20d940b75b5477a23d2cd
+      internalID: 276897237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_55
+      name: rua_destruida2_31
       rect:
         serializedVersion: 2
         x: 448
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -770,18 +770,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd85bd10c43420a4db5a7104adea6981
-      internalID: 42821260
+      spriteID: 32feeaed55674b346bd17e5ec3e4ec0e
+      internalID: 2103991184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_56
+      name: rua_destruida2_32
       rect:
         serializedVersion: 2
         x: 512
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -791,18 +791,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a063bff5d77296b438a0d456a9829969
-      internalID: 198576042
+      spriteID: e38e46e6d3edad8439bc7b223dbb8fc7
+      internalID: -777303537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_57
+      name: rua_destruida2_33
       rect:
         serializedVersion: 2
         x: 576
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -812,18 +812,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ac06085c5af8a54588a46b43de0f7d8
-      internalID: 1239926795
+      spriteID: e8433f7f6a7cf5842975c36c4292e351
+      internalID: -911188738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_58
+      name: rua_destruida2_34
       rect:
         serializedVersion: 2
         x: 640
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -833,18 +833,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6ee00d7e4e85742831117dc44f0a7e
-      internalID: -1658757222
+      spriteID: ca178848cb742824086bb966270017a9
+      internalID: -1583282958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_59
+      name: rua_destruida2_35
       rect:
         serializedVersion: 2
         x: 704
-        y: 608
+        y: 512
         width: 64
         height: 64
       alignment: 0
@@ -854,18 +854,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43aa8599d51a654a999d2f2559584b1
-      internalID: 1789446967
+      spriteID: 9a0b751abc05af34cb5daba3cab6681c
+      internalID: 260477214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_72
+      name: rua_destruida2_36
       rect:
         serializedVersion: 2
         x: 0
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -875,18 +875,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48b29228b91c724bb64652411265ee5
-      internalID: 2097269221
+      spriteID: 6888f71bdd643c6419c461bb1b8a028e
+      internalID: -391468513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_73
+      name: rua_destruida2_37
       rect:
         serializedVersion: 2
         x: 64
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -896,18 +896,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a17e72351fffe43bd5df6397844e90
-      internalID: -573470033
+      spriteID: c12cf7eda2cb217468dfec46df08926f
+      internalID: 871123093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_74
+      name: rua_destruida2_38
       rect:
         serializedVersion: 2
         x: 128
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -917,18 +917,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 044b3312f51b4114ba20041a591a42bb
-      internalID: 521451725
+      spriteID: c4e2476fd72cc514e855d70469ff71e6
+      internalID: -1952331055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_75
+      name: rua_destruida2_39
       rect:
         serializedVersion: 2
         x: 192
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -938,18 +938,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f8baada536671459de319e46038520
-      internalID: -433277120
+      spriteID: 605fab9031826ec41902edc3c2b77d8a
+      internalID: 661597604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_76
+      name: rua_destruida2_40
       rect:
         serializedVersion: 2
         x: 256
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -959,18 +959,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 062e5b429b6d8cd4cbbfef76ee109d69
-      internalID: 1501086219
+      spriteID: 4ed78b51313b22141a5094e8a190dc85
+      internalID: -955423832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_77
+      name: rua_destruida2_41
       rect:
         serializedVersion: 2
         x: 320
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -980,18 +980,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803630c5b1bfcbd4abee477d75f52d35
-      internalID: -1992872738
+      spriteID: 09882095ab83e3e4f805bb925fecd79a
+      internalID: -2071028484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_78
+      name: rua_destruida2_42
       rect:
         serializedVersion: 2
         x: 384
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1001,18 +1001,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbab8c6ab8f490d41b4e4f526f7a11c7
-      internalID: -390161516
+      spriteID: 886ae01374ec55349aaca8fdd454f5df
+      internalID: 1015396623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_79
+      name: rua_destruida2_43
       rect:
         serializedVersion: 2
         x: 448
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1022,18 +1022,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bac451823d845043b2ef155fa375a74
-      internalID: -1205656768
+      spriteID: 4ca434135fcdd2f44a33c94684f5b9c6
+      internalID: 1908751325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_80
+      name: rua_destruida2_44
       rect:
         serializedVersion: 2
         x: 512
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1043,18 +1043,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2889e3c96aaf8b41aadb8cf5b429587
-      internalID: 1955994275
+      spriteID: 7120a0694783de64e8200b1d59cb1d81
+      internalID: -1295813460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_81
+      name: rua_destruida2_45
       rect:
         serializedVersion: 2
         x: 576
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1064,18 +1064,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ff5cd3d2e5d7841a012ad9c4c5fcc3
-      internalID: 58735606
+      spriteID: 362f1963c66d4ac468eb826dafade47a
+      internalID: -802657617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_82
+      name: rua_destruida2_46
       rect:
         serializedVersion: 2
         x: 640
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1085,18 +1085,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4deef17c6eb182a4f9094049bf5cf93b
-      internalID: -1267736678
+      spriteID: 52e62db740d8ccd44981bb851801ac6c
+      internalID: -1684506448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_83
+      name: rua_destruida2_47
       rect:
         serializedVersion: 2
         x: 704
-        y: 544
+        y: 448
         width: 64
         height: 64
       alignment: 0
@@ -1106,18 +1106,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a11aa130af17a549bb514be51de8ae1
-      internalID: 535130747
+      spriteID: 0251c111da84b7642b62afca28d7f5d4
+      internalID: 1651842525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_96
+      name: rua_destruida2_48
       rect:
         serializedVersion: 2
         x: 0
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1127,18 +1127,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6752728e53fcd4586afdd11e88bbad
-      internalID: 1947826235
+      spriteID: e7f2ecc99e0733f4ebddbb826f066f57
+      internalID: 539201327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_97
+      name: rua_destruida2_49
       rect:
         serializedVersion: 2
         x: 64
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1148,18 +1148,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa21a52b2c84b7643b5d77e1e77b657d
-      internalID: -584760584
+      spriteID: 0c9c35048deeaf94c98639ff20d3f6be
+      internalID: -1755420074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_98
+      name: rua_destruida2_50
       rect:
         serializedVersion: 2
         x: 128
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1169,18 +1169,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27c6d0c0d27b68d4d9eaba3772c4423b
-      internalID: 51756105
+      spriteID: a582e796021645a4ea543c9ba54d1acf
+      internalID: -390592242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_99
+      name: rua_destruida2_51
       rect:
         serializedVersion: 2
         x: 192
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1190,18 +1190,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0173a23a13e83854b960b9a60cada901
-      internalID: -1585879234
+      spriteID: 976019a745e51254381cdf9d6380bc59
+      internalID: -735967984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_100
+      name: rua_destruida2_52
       rect:
         serializedVersion: 2
         x: 256
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1211,18 +1211,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f95339c073354a49be5d5f16e9f2b67
-      internalID: 74923950
+      spriteID: 2d2dae893e0ccdd42a9e7092bf9248b1
+      internalID: 759966416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_101
+      name: rua_destruida2_53
       rect:
         serializedVersion: 2
         x: 320
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1232,18 +1232,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c62ab9fd9b7c7049b7527d3b99fb0a2
-      internalID: 1906494317
+      spriteID: f0525d5501c18064b80917319c4e4900
+      internalID: 971929029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_102
+      name: rua_destruida2_54
       rect:
         serializedVersion: 2
         x: 384
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1253,18 +1253,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a331976769450164bbf61ed7c6be15d0
-      internalID: -780057585
+      spriteID: 35fe1a416d627cd42885b1c0ef7a41f8
+      internalID: 1535382109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_103
+      name: rua_destruida2_55
       rect:
         serializedVersion: 2
         x: 448
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1274,18 +1274,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9690bd195760004fbcc09ba7a615a11
-      internalID: -512402729
+      spriteID: 4c8f08bd16460d74ca5aba56c866f599
+      internalID: 198202005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_104
+      name: rua_destruida2_56
       rect:
         serializedVersion: 2
         x: 512
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1295,18 +1295,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4d50da7d935258439a54c1bb38606f0
-      internalID: 714634800
+      spriteID: 18bc953dc4369594caa35aef0d5c89c6
+      internalID: 1238443453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_105
+      name: rua_destruida2_57
       rect:
         serializedVersion: 2
         x: 576
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1316,18 +1316,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eba525f33450bb243a029c9dc4eadf0b
-      internalID: -1935615018
+      spriteID: 5a1566650202cb542ab4a2ff6536676c
+      internalID: 548953589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_106
+      name: rua_destruida2_58
       rect:
         serializedVersion: 2
         x: 640
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1337,18 +1337,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 334f284a9b2ac304c806cfc70c71191d
-      internalID: 863115858
+      spriteID: c85c06d170cfbd046a6e81b4cb2be020
+      internalID: -1131722215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_107
+      name: rua_destruida2_59
       rect:
         serializedVersion: 2
         x: 704
-        y: 480
+        y: 384
         width: 64
         height: 64
       alignment: 0
@@ -1358,18 +1358,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0bfa4c74c7d4a54a9b64218998c9ea7
-      internalID: 1682686089
+      spriteID: d7d5f7be1dd942b46b03b7bfda3039ee
+      internalID: 1778278635
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_120
+      name: rua_destruida2_60
       rect:
         serializedVersion: 2
         x: 0
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1379,18 +1379,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9779b92afd940441a9062849e3d5485
-      internalID: 230335962
+      spriteID: ac11d9343616f3141a64ae23d67fc47f
+      internalID: 2120353393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_121
+      name: rua_destruida2_61
       rect:
         serializedVersion: 2
         x: 64
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1400,18 +1400,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbba0241d6ff71e4a99e9fbd41ba12b4
-      internalID: 1066498418
+      spriteID: c6fc0f1cec111ba4daf148484d146df8
+      internalID: -1306992849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_122
+      name: rua_destruida2_62
       rect:
         serializedVersion: 2
         x: 128
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1421,18 +1421,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57cb4876c47f934dbf038954a9c76eb
-      internalID: -1026523007
+      spriteID: 618c9ebadaadce04f9c2ec30a6e988e2
+      internalID: 1556799234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_123
+      name: rua_destruida2_63
       rect:
         serializedVersion: 2
         x: 192
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1442,18 +1442,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca364b973affdac4db44b3ed320e9a96
-      internalID: 280315893
+      spriteID: b86895175cff3e74bab5db0488193d35
+      internalID: 1347249245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_124
+      name: rua_destruida2_64
       rect:
         serializedVersion: 2
         x: 256
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1463,18 +1463,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 775df04650deb1348a31797cc93ff85a
-      internalID: 463572890
+      spriteID: 81154c81901429f4a8482935c7dbce92
+      internalID: 1699908599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_125
+      name: rua_destruida2_65
       rect:
         serializedVersion: 2
         x: 320
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1484,18 +1484,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a78c60fb8908ded43ad190407e98ac91
-      internalID: -1289929878
+      spriteID: 1bda5c0ee5953ca42bd720675f051a53
+      internalID: 1518081028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_126
+      name: rua_destruida2_66
       rect:
         serializedVersion: 2
         x: 384
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1505,18 +1505,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892739150d63e8b4aaead88371604b9a
-      internalID: -67663251
+      spriteID: bbe68e6fb44ccad4a9d04185ba7d718a
+      internalID: -1475118579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_127
+      name: rua_destruida2_67
       rect:
         serializedVersion: 2
         x: 448
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1526,18 +1526,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6da4459c606da4489b03c890a6a8964
-      internalID: 1605314501
+      spriteID: d08c9a5202b43a94c9d4370775937618
+      internalID: 440846978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_128
+      name: rua_destruida2_68
       rect:
         serializedVersion: 2
         x: 512
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1547,18 +1547,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec22eda9c38ff2143ba03595ec31346a
-      internalID: -1915112461
+      spriteID: 301298e09c34e3a44946d2e34b782c77
+      internalID: -1261415250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_129
+      name: rua_destruida2_69
       rect:
         serializedVersion: 2
         x: 576
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1568,18 +1568,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72bb3d0e877627f4784a5a0f96b1020f
-      internalID: -772329783
+      spriteID: 27a4cae278d984d4882fcc6697310d7e
+      internalID: -1187825772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_130
+      name: rua_destruida2_70
       rect:
         serializedVersion: 2
         x: 640
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1589,18 +1589,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c11de282f4af12740a1852c287e4551e
-      internalID: 801111363
+      spriteID: dfaa4879b8a3fd343b6a0636cd135b91
+      internalID: 21793817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_131
+      name: rua_destruida2_71
       rect:
         serializedVersion: 2
         x: 704
-        y: 416
+        y: 320
         width: 64
         height: 64
       alignment: 0
@@ -1610,18 +1610,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ca187b7d36afb24cbd765bd22fdb9b2
-      internalID: 901031693
+      spriteID: b43119340efffa147b2de4ee85278f83
+      internalID: 1688725404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_144
+      name: rua_destruida2_72
       rect:
         serializedVersion: 2
         x: 0
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1631,18 +1631,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ecd72f32ec39948814264508876605
-      internalID: 1805286816
+      spriteID: ab44175d10887c94389eaed83494aebc
+      internalID: 1254365831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_145
+      name: rua_destruida2_73
       rect:
         serializedVersion: 2
         x: 64
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1652,18 +1652,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c8584d2666cb948a058842d13a9731
-      internalID: -2074247367
+      spriteID: f2210d6ef690de84b97bf3fd94763fb6
+      internalID: 1986138898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_146
+      name: rua_destruida2_74
       rect:
         serializedVersion: 2
         x: 128
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1673,18 +1673,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce049b91d3d89d41bcfdb9371df8d6f
-      internalID: -662056213
+      spriteID: 3930c3f6cdbc4d64d9b9f7018ac8a6eb
+      internalID: 1866489122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_147
+      name: rua_destruida2_75
       rect:
         serializedVersion: 2
         x: 192
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1694,18 +1694,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de6818376df388c498d8535eed83a4e6
-      internalID: 1765591756
+      spriteID: 3ad2b58e93470f1478a8561e2e5e7298
+      internalID: 71194511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_148
+      name: rua_destruida2_76
       rect:
         serializedVersion: 2
         x: 256
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1715,18 +1715,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d14a11094e8bf044a5d35066cf276a9
-      internalID: -1039277757
+      spriteID: 279171a2256bae94592dd805134a2b6f
+      internalID: -595959304
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_149
+      name: rua_destruida2_77
       rect:
         serializedVersion: 2
         x: 320
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1736,18 +1736,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5792de983cc6ea545bcb51b99c306e7d
-      internalID: 491245050
+      spriteID: e4de2da392d0c7847a6a6dddf6b044c9
+      internalID: -1528274549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_150
+      name: rua_destruida2_78
       rect:
         serializedVersion: 2
         x: 384
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1757,18 +1757,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cf3287491a9ee648b52ac7debd4c6cf
-      internalID: 43030125
+      spriteID: bb3cc6958cab9674baab489ef8bb1733
+      internalID: -1743435793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_151
+      name: rua_destruida2_79
       rect:
         serializedVersion: 2
         x: 448
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1778,18 +1778,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a3708d25d07e584a851eb93adae9fa1
-      internalID: -452995227
+      spriteID: b307218189d99fd4892a2ac60c964a70
+      internalID: -346619129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_152
+      name: rua_destruida2_80
       rect:
         serializedVersion: 2
         x: 512
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1799,18 +1799,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bf176c87a33f2a428c0b699114a571a
-      internalID: -150281737
+      spriteID: 56a9fc2a7ebf1c546ba551b51b72230f
+      internalID: 848950889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_153
+      name: rua_destruida2_81
       rect:
         serializedVersion: 2
         x: 576
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1820,18 +1820,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72918ce436fba4a4dbcf84766d8c7a89
-      internalID: 874434967
+      spriteID: f73c656b8c7cc6b48aef5680540fc82a
+      internalID: 1419874862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_154
+      name: rua_destruida2_82
       rect:
         serializedVersion: 2
         x: 640
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1841,18 +1841,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5807bca5e9dbdb04697929ad36cc3e35
-      internalID: -461137310
+      spriteID: 1ed8c8f4c6e7c67499128bbace7810a5
+      internalID: 1178653800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_155
+      name: rua_destruida2_83
       rect:
         serializedVersion: 2
         x: 704
-        y: 352
+        y: 256
         width: 64
         height: 64
       alignment: 0
@@ -1862,18 +1862,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d66ddffdc9c7d0a4298ef26a19a71122
-      internalID: -327402570
+      spriteID: a60b89e7a8ec98448af73a01182144c4
+      internalID: -977833887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_168
+      name: rua_destruida2_84
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1883,18 +1883,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9652116c4fa4d3d47975dc5ece8273a2
-      internalID: 513801118
+      spriteID: 21d4f3fa69e696b489acb4a3b55b2485
+      internalID: 1344611743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_169
+      name: rua_destruida2_85
       rect:
         serializedVersion: 2
         x: 64
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1904,18 +1904,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 169b2dcb8b1d2bc4b9cb3b1a95cfe331
-      internalID: -614484709
+      spriteID: 077490051bd3b4c4194d3ded545f7da2
+      internalID: 1839000617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_170
+      name: rua_destruida2_86
       rect:
         serializedVersion: 2
         x: 128
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1925,18 +1925,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38728d1cba52017418364202e6330140
-      internalID: -171398889
+      spriteID: c657019f0339950448bf0f263e2c94e1
+      internalID: -689751653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_171
+      name: rua_destruida2_87
       rect:
         serializedVersion: 2
         x: 192
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1946,18 +1946,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c25a1931e5200924080b80d988597173
-      internalID: 1707500218
+      spriteID: e9c01b9286ebc854db792ecf26e05fc9
+      internalID: 283548365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_172
+      name: rua_destruida2_88
       rect:
         serializedVersion: 2
         x: 256
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1967,18 +1967,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d023324c03c443f488579366caf77276
-      internalID: 1015752645
+      spriteID: 6b9637d108303744fb0ebe77a0cee86b
+      internalID: -302060337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_173
+      name: rua_destruida2_89
       rect:
         serializedVersion: 2
         x: 320
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -1988,18 +1988,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84dc19d9a4edc8d44a29c0b3150d3c55
-      internalID: -644600297
+      spriteID: ee4cf4663c181f948a76a001a43a10e7
+      internalID: -1309358993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_174
+      name: rua_destruida2_90
       rect:
         serializedVersion: 2
         x: 384
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2009,18 +2009,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ad1930576706e34d9a1d8676c26e37f
-      internalID: -1009773116
+      spriteID: 77f5618366746ee4ab8554224354f1f0
+      internalID: 823952163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_175
+      name: rua_destruida2_91
       rect:
         serializedVersion: 2
         x: 448
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2030,18 +2030,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ffeb8b8bea5c074fa40c996d676227b
-      internalID: -431724056
+      spriteID: dea44d8a277ae0f4b838be0882db1eca
+      internalID: -704542196
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_176
+      name: rua_destruida2_92
       rect:
         serializedVersion: 2
         x: 512
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2051,18 +2051,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95835ebc53403a4bb59d76b7d50d856
-      internalID: -2007756478
+      spriteID: 175c7e9403dac6c4cb97071212b43b1a
+      internalID: -1390936016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_177
+      name: rua_destruida2_93
       rect:
         serializedVersion: 2
         x: 576
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2072,18 +2072,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3de3458cb77bac498190ad035746a62
-      internalID: -75966309
+      spriteID: 014e1bf5ec5106b4c981e8888e024e41
+      internalID: -1736173638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_178
+      name: rua_destruida2_94
       rect:
         serializedVersion: 2
         x: 640
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2093,18 +2093,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7fd7ffa3266feb4485d801b753ffd9a
-      internalID: 1865447657
+      spriteID: d5f8c9c802c8c0e41a559b1b855a71c9
+      internalID: 1179054668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_179
+      name: rua_destruida2_95
       rect:
         serializedVersion: 2
         x: 704
-        y: 288
+        y: 192
         width: 64
         height: 64
       alignment: 0
@@ -2114,18 +2114,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 108550c17f6522f429790c5383d6f221
-      internalID: 1119956504
+      spriteID: 9dabfcb1bd2aa2c47abf5cfeb2fba523
+      internalID: 1062610758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_192
+      name: rua_destruida2_96
       rect:
         serializedVersion: 2
         x: 0
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2135,18 +2135,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec44eec71af85694f8fa5cc7b27059c4
-      internalID: 1818613951
+      spriteID: e23eb3efe0b2cb94b84445c9692a2467
+      internalID: -1458035903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_193
+      name: rua_destruida2_97
       rect:
         serializedVersion: 2
         x: 64
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2156,18 +2156,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acde0612aa0e61846ad1bf40c77523aa
-      internalID: 2132992490
+      spriteID: 7bed39afa2eddc64bb290dec854b303a
+      internalID: 552913414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_194
+      name: rua_destruida2_98
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2177,18 +2177,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74b10d7568c26434e8f01d0a4bf0a566
-      internalID: 1273867711
+      spriteID: 9ad43958e4a9ff348be7cde129eb787b
+      internalID: 1599519849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_195
+      name: rua_destruida2_99
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2198,18 +2198,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cd717bdd6283104ab0b322385f08d17
-      internalID: 384072359
+      spriteID: 8fa5bc07e6bf3044ea629fd35cc91445
+      internalID: -122799531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_196
+      name: rua_destruida2_100
       rect:
         serializedVersion: 2
         x: 256
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2219,18 +2219,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 825b5877712402c48977a8c0d5eeae63
-      internalID: 260006866
+      spriteID: 508321ea4aa220e4b9fa5046e295d11a
+      internalID: -747549988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_197
+      name: rua_destruida2_101
       rect:
         serializedVersion: 2
         x: 320
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2240,18 +2240,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62c9a751cfce8d94aa94b81232f99cd2
-      internalID: -895682461
+      spriteID: 6a774d0bc2f10fd45a045e821b4e4282
+      internalID: -464363326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_198
+      name: rua_destruida2_102
       rect:
         serializedVersion: 2
         x: 384
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2261,18 +2261,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 039776ccef7b74242873f76440aef566
-      internalID: -1059032032
+      spriteID: 1349223cddaab894bbd5893b514d1c8d
+      internalID: 1718892746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_199
+      name: rua_destruida2_103
       rect:
         serializedVersion: 2
         x: 448
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2282,18 +2282,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edb4d9b0240ec054a8c22e4ab4901161
-      internalID: -561625363
+      spriteID: 9868302b7ad286542a0f5acabbd587bc
+      internalID: -2062288429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_200
+      name: rua_destruida2_104
       rect:
         serializedVersion: 2
         x: 512
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2303,18 +2303,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f21eeef45df1d47ae20e63fbf27d2d
-      internalID: 1440180942
+      spriteID: f9e1265d74af7a7469dff00c4272176f
+      internalID: -1834628850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_201
+      name: rua_destruida2_105
       rect:
         serializedVersion: 2
         x: 576
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2324,18 +2324,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 076e57aa69d1aab46946435316c63ca9
-      internalID: 1860442745
+      spriteID: e46b6c3c17418c144940607e65ba1698
+      internalID: -1983172779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_202
+      name: rua_destruida2_106
       rect:
         serializedVersion: 2
         x: 640
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2345,18 +2345,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c2a50102bbdcaa4c8b3fd6820e9f6d7
-      internalID: 723710488
+      spriteID: ce5ff8c4213a5be4eace9d8ec920f450
+      internalID: -833877564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_203
+      name: rua_destruida2_107
       rect:
         serializedVersion: 2
         x: 704
-        y: 224
+        y: 128
         width: 64
         height: 64
       alignment: 0
@@ -2366,18 +2366,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a19a98e5d4c00c479ceb8995c5546d7
-      internalID: 408947740
+      spriteID: 7f56768b091eda14d844d9eebb45cdc0
+      internalID: 1178189329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_216
+      name: rua_destruida2_108
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2387,18 +2387,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb72d7b1a345b8740b9c01b0de193761
-      internalID: 462162448
+      spriteID: 47c15f1953fd40f459836f45d8f17204
+      internalID: 646758757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_217
+      name: rua_destruida2_109
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2408,18 +2408,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3076c9d3368202e418714464a56d1c17
-      internalID: 184535083
+      spriteID: f852691a572a87f4baace3699206069d
+      internalID: 426124088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_218
+      name: rua_destruida2_110
       rect:
         serializedVersion: 2
         x: 128
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2429,18 +2429,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6e50790a8a4ddc4e9134adfa1711837
-      internalID: -540060604
+      spriteID: b0a2b1a89263dcb4db9ff56beba1e146
+      internalID: 1226342409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_219
+      name: rua_destruida2_111
       rect:
         serializedVersion: 2
         x: 192
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2450,18 +2450,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 575eff48afeff7347ab37b7a9ab4ea2d
-      internalID: 911972769
+      spriteID: 0e21a099ee7613446b6786392c9fe37a
+      internalID: -1528963262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_220
+      name: rua_destruida2_112
       rect:
         serializedVersion: 2
         x: 256
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2471,18 +2471,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c640f51bead6d4a99e36a0eeaa06a4
-      internalID: -1166930690
+      spriteID: 0f6324738b0049c4fa02b18acdf35d43
+      internalID: -1941207609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_221
+      name: rua_destruida2_113
       rect:
         serializedVersion: 2
         x: 320
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2492,18 +2492,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ffcb72a4fe0d44d9a7032e0d09835d
-      internalID: -694117233
+      spriteID: 0de1411be1f80e94d9b85a79002ccd61
+      internalID: 1428002607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_222
+      name: rua_destruida2_114
       rect:
         serializedVersion: 2
         x: 384
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2513,18 +2513,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab4d35ac28144ba43a8654a8c7adda24
-      internalID: -879581557
+      spriteID: 07c4d06d4f5afd945b04e397c4923a3c
+      internalID: -1015716607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_223
+      name: rua_destruida2_115
       rect:
         serializedVersion: 2
         x: 448
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2534,18 +2534,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca4a8f1284536524dabfd5751c5703ea
-      internalID: 415814772
+      spriteID: 956689b5108e3c947999edb710f9a236
+      internalID: 280961222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_224
+      name: rua_destruida2_116
       rect:
         serializedVersion: 2
         x: 512
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2555,18 +2555,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 972cf63d57a8ea14da64b29b557e8f22
-      internalID: 634467020
+      spriteID: 115c3a3c5c2391346a9c21a6a88a8425
+      internalID: 1034767116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_225
+      name: rua_destruida2_117
       rect:
         serializedVersion: 2
         x: 576
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2576,18 +2576,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: add999bb9acb7d04bb8b32d0f0c09d47
-      internalID: 1304584571
+      spriteID: aac83ca8421a8884fadd12a0217ab770
+      internalID: -89776769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_226
+      name: rua_destruida2_118
       rect:
         serializedVersion: 2
         x: 640
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2597,18 +2597,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b470daf1f630af24c8a9ab53d91e9704
-      internalID: 135368353
+      spriteID: 84c93166d41856040914022499fb63f7
+      internalID: -1251866140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_227
+      name: rua_destruida2_119
       rect:
         serializedVersion: 2
         x: 704
-        y: 160
+        y: 64
         width: 64
         height: 64
       alignment: 0
@@ -2618,18 +2618,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8ddda20fdf3934ba4bdbcc6e931934
-      internalID: -70213401
+      spriteID: 0b80ac3fdc458d643bb99989b6da0783
+      internalID: 890200905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_240
+      name: rua_destruida2_120
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2639,18 +2639,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cc0c7d7d3c085b47aea81790d7bf41d
-      internalID: -1550500269
+      spriteID: dcaa17d3c0e46ff4aaced8b8e29475d1
+      internalID: 54057633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_241
+      name: rua_destruida2_121
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2660,18 +2660,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b145c3e921d0d4399bc4af9235177d
-      internalID: 198543604
+      spriteID: 641e6864cafe90c43ad3c26cd7e99bee
+      internalID: 229324728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_242
+      name: rua_destruida2_122
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2681,18 +2681,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9461dfeec318714f99e2c20d7989e57
-      internalID: 260768787
+      spriteID: 074722a9be05d8c428030a6617d73149
+      internalID: 1439082504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_243
+      name: rua_destruida2_123
       rect:
         serializedVersion: 2
         x: 192
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2702,18 +2702,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87453df4acd366843a5a1854d0071d8d
-      internalID: 1675916024
+      spriteID: 2392e5d50f5e79c40888edd635da00a8
+      internalID: -1823979175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_244
+      name: rua_destruida2_124
       rect:
         serializedVersion: 2
         x: 256
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2723,18 +2723,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e021bd91d9c4c4b91a916c7b70604a
-      internalID: -85931485
+      spriteID: 06457fe98c3b9df4d98ffec16bf0c904
+      internalID: 1099970471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_245
+      name: rua_destruida2_125
       rect:
         serializedVersion: 2
         x: 320
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2744,18 +2744,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aae94674880544459a48c327838b461
-      internalID: 761365618
+      spriteID: f43b1eca1d77eb84c80803effbb472c7
+      internalID: 847675857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_246
+      name: rua_destruida2_126
       rect:
         serializedVersion: 2
         x: 384
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2765,18 +2765,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69a45597325202f4bb245d94253d3f6a
-      internalID: 460344936
+      spriteID: c2e2d4129a710544d8fc40c3109df4c4
+      internalID: -1375166995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_247
+      name: rua_destruida2_127
       rect:
         serializedVersion: 2
         x: 448
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2786,18 +2786,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5659e5ed3d92b6046a95973dde356910
-      internalID: -770763887
+      spriteID: 8c0502cc93587ee45aa6316923a07490
+      internalID: 755230122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_248
+      name: rua_destruida2_128
       rect:
         serializedVersion: 2
         x: 512
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2807,18 +2807,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ed2b6ca2d2f724b94ecef2ec7077c8
-      internalID: 1640128238
+      spriteID: 1c0475082ad0c194f8b1102f8765694e
+      internalID: 765138244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_249
+      name: rua_destruida2_129
       rect:
         serializedVersion: 2
         x: 576
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2828,18 +2828,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ace70d2590fc94b9e784bd2af90bc6
-      internalID: 350996466
+      spriteID: 0305e72cd33ecb14ea16b332e57b24c0
+      internalID: -572032315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_250
+      name: rua_destruida2_130
       rect:
         serializedVersion: 2
         x: 640
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2849,18 +2849,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a83f07cf8c2785e48860c47267220a43
-      internalID: 1651808564
+      spriteID: 8fe6cfc4efa06e84694c1cd88ac90d9e
+      internalID: -423161872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: rua_destruida_251
+      name: rua_destruida2_131
       rect:
         serializedVersion: 2
         x: 704
-        y: 96
+        y: 0
         width: 64
         height: 64
       alignment: 0
@@ -2870,8 +2870,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd9318d7144197468ae8fda1c314b05
-      internalID: 2126514815
+      spriteID: d42173fe4e3481f4fad9b144710288a8
+      internalID: -1716724135
       vertices: []
       indices: 
       edges: []
@@ -2887,270 +2887,138 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      rua_destruida_0: 1643643939
-      rua_destruida_1: -1506743566
-      rua_destruida_10: -488180961
-      rua_destruida_100: 74923950
-      rua_destruida_101: 1906494317
-      rua_destruida_102: -780057585
-      rua_destruida_103: -512402729
-      rua_destruida_104: 714634800
-      rua_destruida_105: -1935615018
-      rua_destruida_106: 863115858
-      rua_destruida_107: 1682686089
-      rua_destruida_108: 278146485
-      rua_destruida_109: 1657976086
-      rua_destruida_11: 1445760319
-      rua_destruida_110: 1906328842
-      rua_destruida_111: 440084835
-      rua_destruida_112: 509968743
-      rua_destruida_113: -2033647004
-      rua_destruida_114: -1998882943
-      rua_destruida_115: -1136694827
-      rua_destruida_116: -1172624999
-      rua_destruida_117: 230317
-      rua_destruida_118: -331178220
-      rua_destruida_119: 1459015821
-      rua_destruida_12: -76026722
-      rua_destruida_120: 230335962
-      rua_destruida_121: 1066498418
-      rua_destruida_122: -1026523007
-      rua_destruida_123: 280315893
-      rua_destruida_124: 463572890
-      rua_destruida_125: -1289929878
-      rua_destruida_126: -67663251
-      rua_destruida_127: 1605314501
-      rua_destruida_128: -1915112461
-      rua_destruida_129: -772329783
-      rua_destruida_13: -1380132156
-      rua_destruida_130: 801111363
-      rua_destruida_131: 901031693
-      rua_destruida_132: -2102241042
-      rua_destruida_133: 1541493481
-      rua_destruida_134: -1561076909
-      rua_destruida_135: 1884168857
-      rua_destruida_136: -498216158
-      rua_destruida_137: -389256250
-      rua_destruida_138: 629113697
-      rua_destruida_139: 369799136
-      rua_destruida_14: -1871937426
-      rua_destruida_140: -1394962627
-      rua_destruida_141: -69306796
-      rua_destruida_142: 805285223
-      rua_destruida_143: -1199494274
-      rua_destruida_144: 1805286816
-      rua_destruida_145: -2074247367
-      rua_destruida_146: -662056213
-      rua_destruida_147: 1765591756
-      rua_destruida_148: -1039277757
-      rua_destruida_149: 491245050
-      rua_destruida_15: 236818985
-      rua_destruida_150: 43030125
-      rua_destruida_151: -452995227
-      rua_destruida_152: -150281737
-      rua_destruida_153: 874434967
-      rua_destruida_154: -461137310
-      rua_destruida_155: -327402570
-      rua_destruida_156: -1212152711
-      rua_destruida_157: -1062111556
-      rua_destruida_158: -1862364249
-      rua_destruida_159: -89289306
-      rua_destruida_16: -1159301038
-      rua_destruida_160: -946920205
-      rua_destruida_161: -1699508752
-      rua_destruida_162: 1624730183
-      rua_destruida_163: 1428360879
-      rua_destruida_164: -20419876
-      rua_destruida_165: 954341143
-      rua_destruida_166: 285650778
-      rua_destruida_167: 869824934
-      rua_destruida_168: 513801118
-      rua_destruida_169: -614484709
-      rua_destruida_17: 497509701
-      rua_destruida_170: -171398889
-      rua_destruida_171: 1707500218
-      rua_destruida_172: 1015752645
-      rua_destruida_173: -644600297
-      rua_destruida_174: -1009773116
-      rua_destruida_175: -431724056
-      rua_destruida_176: -2007756478
-      rua_destruida_177: -75966309
-      rua_destruida_178: 1865447657
-      rua_destruida_179: 1119956504
-      rua_destruida_18: 1153855341
-      rua_destruida_180: -2126713173
-      rua_destruida_181: -729053283
-      rua_destruida_182: 1612840358
-      rua_destruida_183: -1699209272
-      rua_destruida_184: 705526498
-      rua_destruida_185: -120544691
-      rua_destruida_186: 1479463366
-      rua_destruida_187: -131935155
-      rua_destruida_188: -2051655639
-      rua_destruida_189: -1292709599
-      rua_destruida_19: 1668678131
-      rua_destruida_190: 1393771663
-      rua_destruida_191: 402243640
-      rua_destruida_192: 1818613951
-      rua_destruida_193: 2132992490
-      rua_destruida_194: 1273867711
-      rua_destruida_195: 384072359
-      rua_destruida_196: 260006866
-      rua_destruida_197: -895682461
-      rua_destruida_198: -1059032032
-      rua_destruida_199: -561625363
-      rua_destruida_2: 1404182638
-      rua_destruida_20: -626880413
-      rua_destruida_200: 1440180942
-      rua_destruida_201: 1860442745
-      rua_destruida_202: 723710488
-      rua_destruida_203: 408947740
-      rua_destruida_204: -777757122
-      rua_destruida_205: 2127871355
-      rua_destruida_206: -1091987451
-      rua_destruida_207: 160901957
-      rua_destruida_208: 824538255
-      rua_destruida_209: -828687339
-      rua_destruida_21: 2078211390
-      rua_destruida_210: -785230553
-      rua_destruida_211: -1651190248
-      rua_destruida_212: 2116393258
-      rua_destruida_213: 499202948
-      rua_destruida_214: 1196214146
-      rua_destruida_215: 597442436
-      rua_destruida_216: 462162448
-      rua_destruida_217: 184535083
-      rua_destruida_218: -540060604
-      rua_destruida_219: 911972769
-      rua_destruida_22: -975242631
-      rua_destruida_220: -1166930690
-      rua_destruida_221: -694117233
-      rua_destruida_222: -879581557
-      rua_destruida_223: 415814772
-      rua_destruida_224: 634467020
-      rua_destruida_225: 1304584571
-      rua_destruida_226: 135368353
-      rua_destruida_227: -70213401
-      rua_destruida_228: 631863169
-      rua_destruida_229: 84342167
-      rua_destruida_23: -679430535
-      rua_destruida_230: 1191788136
-      rua_destruida_231: 707298495
-      rua_destruida_232: 1764063607
-      rua_destruida_233: 1241481470
-      rua_destruida_234: 504632877
-      rua_destruida_235: -1296576014
-      rua_destruida_236: 1646871274
-      rua_destruida_237: 500351392
-      rua_destruida_238: 567964114
-      rua_destruida_239: -1454515190
-      rua_destruida_24: -758885311
-      rua_destruida_240: -1550500269
-      rua_destruida_241: 198543604
-      rua_destruida_242: 260768787
-      rua_destruida_243: 1675916024
-      rua_destruida_244: -85931485
-      rua_destruida_245: 761365618
-      rua_destruida_246: 460344936
-      rua_destruida_247: -770763887
-      rua_destruida_248: 1640128238
-      rua_destruida_249: 350996466
-      rua_destruida_25: 741816630
-      rua_destruida_250: 1651808564
-      rua_destruida_251: 2126514815
-      rua_destruida_252: -1176578898
-      rua_destruida_253: 726126793
-      rua_destruida_254: 123177632
-      rua_destruida_255: -741601518
-      rua_destruida_256: 406020446
-      rua_destruida_257: -323662365
-      rua_destruida_258: 469500750
-      rua_destruida_259: -1288327988
-      rua_destruida_26: -1528168731
-      rua_destruida_260: -1350949171
-      rua_destruida_261: 1676438714
-      rua_destruida_262: -1826077965
-      rua_destruida_263: -134925781
-      rua_destruida_27: 1944009995
-      rua_destruida_28: 1585868208
-      rua_destruida_29: 149344214
-      rua_destruida_3: 59001953
-      rua_destruida_30: -1537851329
-      rua_destruida_31: -792190217
-      rua_destruida_32: -665264337
-      rua_destruida_33: -544267739
-      rua_destruida_34: 1700342013
-      rua_destruida_35: 748191249
-      rua_destruida_36: -936512317
-      rua_destruida_37: 769960664
-      rua_destruida_38: 1897758174
-      rua_destruida_39: -1429630514
-      rua_destruida_4: -57968284
-      rua_destruida_40: -462476200
-      rua_destruida_41: 1147606457
-      rua_destruida_42: -282283090
-      rua_destruida_43: -657389146
-      rua_destruida_44: 2061830910
-      rua_destruida_45: 322475698
-      rua_destruida_46: 1727699693
-      rua_destruida_47: 65654941
-      rua_destruida_48: -636097422
-      rua_destruida_49: -1126531394
-      rua_destruida_5: 944813416
-      rua_destruida_50: -1172236661
-      rua_destruida_51: -531286815
-      rua_destruida_52: -318621107
-      rua_destruida_53: -590002130
-      rua_destruida_54: -1253655054
-      rua_destruida_55: 42821260
-      rua_destruida_56: 198576042
-      rua_destruida_57: 1239926795
-      rua_destruida_58: -1658757222
-      rua_destruida_59: 1789446967
-      rua_destruida_6: -1510843609
-      rua_destruida_60: -1372417228
-      rua_destruida_61: 2137931419
-      rua_destruida_62: 391706529
-      rua_destruida_63: 413533213
-      rua_destruida_64: 739786531
-      rua_destruida_65: -521070644
-      rua_destruida_66: 260599260
-      rua_destruida_67: -823142710
-      rua_destruida_68: 1704708992
-      rua_destruida_69: 1579036102
-      rua_destruida_7: -968819799
-      rua_destruida_70: -2000043022
-      rua_destruida_71: -1144348271
-      rua_destruida_72: 2097269221
-      rua_destruida_73: -573470033
-      rua_destruida_74: 521451725
-      rua_destruida_75: -433277120
-      rua_destruida_76: 1501086219
-      rua_destruida_77: -1992872738
-      rua_destruida_78: -390161516
-      rua_destruida_79: -1205656768
-      rua_destruida_8: 1373869482
-      rua_destruida_80: 1955994275
-      rua_destruida_81: 58735606
-      rua_destruida_82: -1267736678
-      rua_destruida_83: 535130747
-      rua_destruida_84: -887906049
-      rua_destruida_85: -1200907853
-      rua_destruida_86: -975603598
-      rua_destruida_87: 737879958
-      rua_destruida_88: 141256057
-      rua_destruida_89: 1017632434
-      rua_destruida_9: 165834166
-      rua_destruida_90: 402495176
-      rua_destruida_91: -439093121
-      rua_destruida_92: -1531613868
-      rua_destruida_93: -1854057944
-      rua_destruida_94: 1442675742
-      rua_destruida_95: 110483556
-      rua_destruida_96: 1947826235
-      rua_destruida_97: -584760584
-      rua_destruida_98: 51756105
-      rua_destruida_99: -1585879234
+      rua_destruida2_0: -847773426
+      rua_destruida2_1: 1831441802
+      rua_destruida2_10: 1119209650
+      rua_destruida2_100: -747549988
+      rua_destruida2_101: -464363326
+      rua_destruida2_102: 1718892746
+      rua_destruida2_103: -2062288429
+      rua_destruida2_104: -1834628850
+      rua_destruida2_105: -1983172779
+      rua_destruida2_106: -833877564
+      rua_destruida2_107: 1178189329
+      rua_destruida2_108: 646758757
+      rua_destruida2_109: 426124088
+      rua_destruida2_11: 1448125980
+      rua_destruida2_110: 1226342409
+      rua_destruida2_111: -1528963262
+      rua_destruida2_112: -1941207609
+      rua_destruida2_113: 1428002607
+      rua_destruida2_114: -1015716607
+      rua_destruida2_115: 280961222
+      rua_destruida2_116: 1034767116
+      rua_destruida2_117: -89776769
+      rua_destruida2_118: -1251866140
+      rua_destruida2_119: 890200905
+      rua_destruida2_12: -79643653
+      rua_destruida2_120: 54057633
+      rua_destruida2_121: 229324728
+      rua_destruida2_122: 1439082504
+      rua_destruida2_123: -1823979175
+      rua_destruida2_124: 1099970471
+      rua_destruida2_125: 847675857
+      rua_destruida2_126: -1375166995
+      rua_destruida2_127: 755230122
+      rua_destruida2_128: 765138244
+      rua_destruida2_129: -572032315
+      rua_destruida2_13: 1382540559
+      rua_destruida2_130: -423161872
+      rua_destruida2_131: -1716724135
+      rua_destruida2_14: 1870784811
+      rua_destruida2_15: 1245574905
+      rua_destruida2_16: -257950902
+      rua_destruida2_17: -1522367222
+      rua_destruida2_18: 327636734
+      rua_destruida2_19: 686865904
+      rua_destruida2_2: 326554800
+      rua_destruida2_20: 1415724372
+      rua_destruida2_21: -826179638
+      rua_destruida2_22: 351084048
+      rua_destruida2_23: -656742353
+      rua_destruida2_24: 1494015645
+      rua_destruida2_25: -1718987643
+      rua_destruida2_26: 1674162248
+      rua_destruida2_27: -482587381
+      rua_destruida2_28: 1772531141
+      rua_destruida2_29: 21353613
+      rua_destruida2_3: -1422029043
+      rua_destruida2_30: 276897237
+      rua_destruida2_31: 2103991184
+      rua_destruida2_32: -777303537
+      rua_destruida2_33: -911188738
+      rua_destruida2_34: -1583282958
+      rua_destruida2_35: 260477214
+      rua_destruida2_36: -391468513
+      rua_destruida2_37: 871123093
+      rua_destruida2_38: -1952331055
+      rua_destruida2_39: 661597604
+      rua_destruida2_4: -1091730336
+      rua_destruida2_40: -955423832
+      rua_destruida2_41: -2071028484
+      rua_destruida2_42: 1015396623
+      rua_destruida2_43: 1908751325
+      rua_destruida2_44: -1295813460
+      rua_destruida2_45: -802657617
+      rua_destruida2_46: -1684506448
+      rua_destruida2_47: 1651842525
+      rua_destruida2_48: 539201327
+      rua_destruida2_49: -1755420074
+      rua_destruida2_5: -194465099
+      rua_destruida2_50: -390592242
+      rua_destruida2_51: -735967984
+      rua_destruida2_52: 759966416
+      rua_destruida2_53: 971929029
+      rua_destruida2_54: 1535382109
+      rua_destruida2_55: 198202005
+      rua_destruida2_56: 1238443453
+      rua_destruida2_57: 548953589
+      rua_destruida2_58: -1131722215
+      rua_destruida2_59: 1778278635
+      rua_destruida2_6: 1025686466
+      rua_destruida2_60: 2120353393
+      rua_destruida2_61: -1306992849
+      rua_destruida2_62: 1556799234
+      rua_destruida2_63: 1347249245
+      rua_destruida2_64: 1699908599
+      rua_destruida2_65: 1518081028
+      rua_destruida2_66: -1475118579
+      rua_destruida2_67: 440846978
+      rua_destruida2_68: -1261415250
+      rua_destruida2_69: -1187825772
+      rua_destruida2_7: 1371727283
+      rua_destruida2_70: 21793817
+      rua_destruida2_71: 1688725404
+      rua_destruida2_72: 1254365831
+      rua_destruida2_73: 1986138898
+      rua_destruida2_74: 1866489122
+      rua_destruida2_75: 71194511
+      rua_destruida2_76: -595959304
+      rua_destruida2_77: -1528274549
+      rua_destruida2_78: -1743435793
+      rua_destruida2_79: -346619129
+      rua_destruida2_8: 1180541006
+      rua_destruida2_80: 848950889
+      rua_destruida2_81: 1419874862
+      rua_destruida2_82: 1178653800
+      rua_destruida2_83: -977833887
+      rua_destruida2_84: 1344611743
+      rua_destruida2_85: 1839000617
+      rua_destruida2_86: -689751653
+      rua_destruida2_87: 283548365
+      rua_destruida2_88: -302060337
+      rua_destruida2_89: -1309358993
+      rua_destruida2_9: -1672877230
+      rua_destruida2_90: 823952163
+      rua_destruida2_91: -704542196
+      rua_destruida2_92: -1390936016
+      rua_destruida2_93: -1736173638
+      rua_destruida2_94: 1179054668
+      rua_destruida2_95: 1062610758
+      rua_destruida2_96: -1458035903
+      rua_destruida2_97: 552913414
+      rua_destruida2_98: 1599519849
+      rua_destruida2_99: -122799531
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

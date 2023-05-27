@@ -54,7 +54,7 @@ public class playerMoviment : MonoBehaviour
 
         float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
 
-        transform.rotation = Quaternion.Euler(0, 0, rotZ);
+        transform.rotation = Quaternion.Euler(0, 0, rotZ+90);
 
 
         // Player Shoot
@@ -64,9 +64,9 @@ public class playerMoviment : MonoBehaviour
         {
             if(timeShoot1>=timeShoot2)
             {
-                Quaternion shootV = transform.rotation;
-                shootV.z = shootV.z + Random.Range(-0.05f,0.05f);
-                Instantiate(bullet,bulletPos.position,shootV);
+                Quaternion shootQ = bulletPos.rotation;
+                shootQ.z = shootQ.z + Random.Range(-0.05f,0.05f);
+                Instantiate(bullet,bulletPos.position,shootQ);
                 timeShoot1 = Time.time;
                 timeShoot2 = Time.time + GetComponent<playerStatus>().getFireRatio();
             }
