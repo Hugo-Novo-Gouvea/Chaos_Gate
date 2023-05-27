@@ -5,11 +5,18 @@ using UnityEngine;
 
 public class playerStatus : MonoBehaviour
 {
-    int fireDamage, initialFireDamage, fireDamageUpgradesSum; 
+    GameObject damageShop, fireRatioShop, healthShop;
+    damageShop nDamageUpgrades;
+    fireRatioShop nFireRatioUpgrades;
+    healthShop nHealthUpgrades;
+    
+    public int fireDamage, initialFireDamage, fireDamageUpgradesSum; 
     int currentHealth, maxHealth, initialMaxHealth, maxHealthUpgradesSum;
     float fireRatio, initialFireRatio, fireRatioUpgradesSum;
 
-    public int maxUpgrades;
+    int maxDamageUpgrades, maxFireRatioUpgrades, max_HealthUpgrades;
+
+    int damageIncrement, fireRatioIncrement, healthIncrement;
 
     public int[] fireDamageUpgrades, maxHealthUpgrades;
     public float[] fireRatioUpgrades;
@@ -17,19 +24,44 @@ public class playerStatus : MonoBehaviour
 
     void Start()
     {
+        damageShop = GameObject.Find("damageShop");
+        nDamageUpgrades = damageShop.GetComponent<damageShop>();
+
+        fireRatioShop = GameObject.Find("fireRatioShop");
+        nFireRatioUpgrades = fireRatioShop.GetComponent<fireRatioShop>();
+
+        healthShop = GameObject.Find("healthShop");
+        nHealthUpgrades = healthShop.GetComponent<healthShop>();
+
+        maxDamageUpgrades = nDamageUpgrades.maxUpgrades;
+        maxFireRatioUpgrades = nFireRatioUpgrades.maxUpgrades;
+        max_HealthUpgrades = nHealthUpgrades.maxUpgrades;
+
+        damageIncrement = 0;
+        fireRatioIncrement = 0;
+        healthIncrement = 0;
+
         initialMaxHealth = 3;
         initialFireRatio = 1;
         initialFireDamage = 1;
         currentHealth = initialMaxHealth;
 
-        fireDamageUpgrades = new int[maxUpgrades];
-        maxHealthUpgrades = new int[maxUpgrades];
-        fireRatioUpgrades = new float[maxUpgrades];
+        fireDamageUpgrades = new int[maxDamageUpgrades];
+        maxHealthUpgrades = new int[max_HealthUpgrades];
+        fireRatioUpgrades = new float[maxFireRatioUpgrades];
 
-        for (int i = 0; i < maxUpgrades; i++)
+        for (int i = 0; i < maxDamageUpgrades; i++)
         {
             fireDamageUpgrades[i] = 0;
+        }
+
+        for (int i = 0; i < maxFireRatioUpgrades; i++)
+        {
             fireRatioUpgrades[i] = 0;
+        }
+
+        for (int i = 0; i < max_HealthUpgrades; i++)
+        {
             maxHealthUpgrades[i] = 0;
         }
 
@@ -38,9 +70,31 @@ public class playerStatus : MonoBehaviour
         fireDamage = initialFireDamage;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            fireDamageUp();
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            fireRatioUp();
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            maxHealthUp();
+        }
+    }
+
     public void fireDamageUp()
     {
-        for (int i = 0; i < maxUpgrades; i++)
+        fireDamageUpgradesSum = 0;
+
+        fireDamageUpgrades[damageIncrement] = nDamageUpgrades.upgrades[damageIncrement];
+
+        damageIncrement++;
+
+        for (int i = 0; i < maxDamageUpgrades; i++)
         {
             fireDamageUpgradesSum += fireDamageUpgrades[i];
         }
@@ -50,7 +104,9 @@ public class playerStatus : MonoBehaviour
 
     public void fireRatioUp()
     {
-        for (int i = 0; i < maxUpgrades; i++)
+        fireRatioUpgradesSum = 0;
+
+        for (int i = 0; i < maxFireRatioUpgrades; i++)
         {
             fireRatioUpgradesSum += fireRatioUpgrades[i];
         }
@@ -60,7 +116,9 @@ public class playerStatus : MonoBehaviour
 
     public void maxHealthUp()
     {
-        for (int i = 0; i < maxUpgrades; i++)
+        maxHealthUpgradesSum = 0;
+
+        for (int i = 0; i < max_HealthUpgrades; i++)
         {
             maxHealthUpgradesSum += maxHealthUpgrades[i];
         }
