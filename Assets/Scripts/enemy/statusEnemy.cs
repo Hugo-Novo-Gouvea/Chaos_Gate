@@ -21,7 +21,7 @@ public class statusEnemy : MonoBehaviour
         gameMan = GameObject.FindWithTag("GameController");
 
         initialMaxHealth = 3;
-        initialSpeed = 4;
+        initialSpeed = 3;
         currentHealth = initialMaxHealth;
 
         maxHealthUpgrades = new int[maxUpgrades];
@@ -32,6 +32,9 @@ public class statusEnemy : MonoBehaviour
             maxHealthUpgrades[i] = 0;
             speedUpgrades[i] = 0;
         }
+
+        maxHealth = initialMaxHealth;
+        speed = initialSpeed;
 
     }
 
@@ -53,6 +56,11 @@ public class statusEnemy : MonoBehaviour
         }
 
         speed = initialSpeed + speedUpgradesSum;
+    }
+
+    public float getSpeed()
+    {
+        return speed;
     }
 
     void damage()

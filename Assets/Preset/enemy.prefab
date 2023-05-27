@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 133039546283721100}
   - component: {fileID: 133039546283721101}
+  - component: {fileID: -7260927127038217218}
   - component: {fileID: 133039546283721103}
   - component: {fileID: 133039546283721090}
   - component: {fileID: 5954844729427335768}
@@ -77,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9bd77299b95ad824a9bb3ee1a034b4f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7b83ea9f7a677ab49bb0f98a0565cbdf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,6 +89,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &-7260927127038217218
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133039546283721096}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 14316689cfedb284f9e16f96e13f1831, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &133039546283721103
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -101,18 +123,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.003570795, y: 0.016069531}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.28, y: 1.28}
+  m_Size: {x: 0.98003626, y: 0.93361354}
   m_EdgeRadius: 0
 --- !u!195 &133039546283721090
 NavMeshAgent:
@@ -123,7 +145,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 133039546283721096}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.64
+  m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -132,8 +154,8 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 1.28
-  m_BaseOffset: 0.64
+  m_Height: 0.95
+  m_BaseOffset: 0.45
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!114 &5954844729427335768
@@ -148,6 +170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a3099540c92ea439f97dec498bb253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxUpgrades: 0
+  maxHealthUpgrades: 
+  speedUpgrades: []
 --- !u!114 &133039546283721091
 MonoBehaviour:
   m_ObjectHideFlags: 0
