@@ -64,7 +64,9 @@ public class playerMoviment : MonoBehaviour
         {
             if(timeShoot1>=timeShoot2)
             {
-                Instantiate(bullet,bulletPos.position,transform.rotation);
+                Quaternion shootV = transform.rotation;
+                shootV.z = shootV.z + Random.Range(-0.05f,0.05f);
+                Instantiate(bullet,bulletPos.position,shootV);
                 timeShoot1 = Time.time;
                 timeShoot2 = Time.time + GetComponent<playerStatus>().getFireRatio();
             }
