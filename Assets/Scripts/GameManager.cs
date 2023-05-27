@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public int coin;
+    public float coin;
 
     void Awake()
     {

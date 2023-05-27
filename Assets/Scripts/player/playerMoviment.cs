@@ -31,19 +31,19 @@ public class playerMoviment : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            rb.velocity = new Vector2(rb.velocity.x,3);
+            rb.velocity = new Vector2(rb.velocity.x,3.5f);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            rb.velocity = new Vector2(rb.velocity.x, -3);
+            rb.velocity = new Vector2(rb.velocity.x, -3.5f);
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rb.velocity = new Vector2(-3, rb.velocity.y);
+            rb.velocity = new Vector2(-3.5f, rb.velocity.y);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.velocity = new Vector2(3, rb.velocity.y);
+            rb.velocity = new Vector2(3.5f, rb.velocity.y);
         }
 
         // Player Rotation

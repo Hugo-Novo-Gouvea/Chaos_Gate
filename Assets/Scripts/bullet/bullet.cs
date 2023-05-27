@@ -24,5 +24,9 @@ public class bullet : MonoBehaviour
             collider.gameObject.GetComponent<statusEnemy>().takeDamage(player.GetComponent<playerStatus>().getFireDamage());
             Destroy(gameObject);
         }
+        if(collider.gameObject.tag == "Car")
+        {
+            Destroy(gameObject);
+        }
     }
 }
