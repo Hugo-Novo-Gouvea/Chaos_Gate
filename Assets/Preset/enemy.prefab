@@ -170,9 +170,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a3099540c92ea439f97dec498bb253, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxUpgrades: 0
+  max_HealthUpgrades: 0
+  maxDamageUpgrades: 0
+  maxSpeedUpgrades: 0
+  maxGainUpgrades: 2
   maxHealthUpgrades: 
+  damageUpgrades: 
   speedUpgrades: []
+  gainUpgrades:
+  - 1
+  - 1
 --- !u!114 &133039546283721091
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject enemy;
-    public Transform Spawns1, Spawns2, Spawns3, Spawns4;
+    public GameObject enemy, gameMan;
+    public Transform[] Spawns;
 
     private int enemyNumMax = 0, enemyNum, Rn;
     private bool speed = true;
@@ -14,14 +14,10 @@ public class SpawnEnemy : MonoBehaviour
 
     public float timeSpawn;
 
-    void Awake()
-    {
-        attEnemyNum(10);
-    }
-
     void Start()
     {
-        enemyNum = enemyNumMax;
+        gameMan = GameObject.FindWithTag("GameController");
+        attEnemyNum(10);
     }
 
     // Update is called once per frame
@@ -31,15 +27,8 @@ public class SpawnEnemy : MonoBehaviour
 
         if(enemyNum > 0 && time1 >= time2 + timeSpawn)
         {
-            Rn = Random.Range(1, 5);
-            if (Rn == 1)
-                Spawn(Spawns1);
-            else if (Rn == 2)
-                Spawn(Spawns2);
-            else if (Rn == 3)
-                Spawn(Spawns3);
-            else
-                Spawn(Spawns4);
+            Rn = Random.Range(0, Spawns.Length);
+            Spawn(Spawns[Rn]);
 
             time2 = Time.time;
         }
@@ -48,6 +37,7 @@ public class SpawnEnemy : MonoBehaviour
         {
             timeSpawn = timeSpawn/2;
             speed = false;
+            attEnemyNum(10);
         }
 
 
@@ -58,6 +48,10 @@ public class SpawnEnemy : MonoBehaviour
     {
         enemyNumMax = num;
         enemyNum = enemyNumMax;
+        gameMan.GetComponent<GameManager>().maxHealthUp();
+        gameMan.GetComponent<GameManager>().damageUp();
+        gameMan.GetComponent<GameManager>().speedUp();
+        gameMan.GetComponent<GameManager>().gainUp();
     }
 
     void Spawn(Transform pos)

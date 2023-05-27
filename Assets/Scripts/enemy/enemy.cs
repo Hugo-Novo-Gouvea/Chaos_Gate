@@ -6,13 +6,14 @@ using UnityEngine.AI;
 
 public class enemy : MonoBehaviour
 {
-    private GameObject player;
+    private GameObject player, gameMan;
     private NavMeshAgent navMesh;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        gameMan = GameObject.FindWithTag("GameController");
         player = GameObject.FindWithTag("Player");
         navMesh = GetComponent<NavMeshAgent>();
         navMesh.updateRotation = false;
@@ -23,7 +24,7 @@ public class enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        navMesh.speed = GetComponent<statusEnemy>().getSpeed();
+        navMesh.speed = gameMan.GetComponent<GameManager>().getSpeed();
         navMesh.SetDestination(player.transform.position);
 
         Vector3 rotation = player.transform.position - transform.position;
