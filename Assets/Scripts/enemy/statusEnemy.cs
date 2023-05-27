@@ -63,23 +63,14 @@ public class statusEnemy : MonoBehaviour
         return speed;
     }
 
-    void damage()
+    public void takeDamage(int damage)
     {
-        currentHealth -= 1;
+        currentHealth -= damage;
         if(currentHealth <= 0)
         {
             gameMan.GetComponent<GameManager>().coin ++;
-            Destroy(gameObject,0);
-            Debug.Log("teste");
+            Destroy(gameObject);
         }
 
-    }
-
-    void OnTriggerEnter2D(Collider2D colisor)
-    {
-        if(colisor.gameObject.tag == "bullet")
-        {
-            damage();
-        }
     }
 }

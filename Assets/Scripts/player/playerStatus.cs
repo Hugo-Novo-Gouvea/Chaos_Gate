@@ -126,6 +126,11 @@ public class playerStatus : MonoBehaviour
         maxHealth = initialMaxHealth + maxHealthUpgradesSum;
     }
 
+    public int getFireDamage()
+    {
+        return fireDamage;
+    }
+
     public float getFireRatio()
     {
         return fireRatio;
