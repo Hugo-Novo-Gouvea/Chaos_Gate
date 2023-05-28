@@ -37,7 +37,6 @@ public class SpawnEnemy : MonoBehaviour
         {
             timeSpawn = timeSpawn/2;
             speed = false;
-            attEnemyNum(10);
         }
 
 
