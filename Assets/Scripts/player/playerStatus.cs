@@ -142,6 +142,8 @@ public class playerStatus : MonoBehaviour
         }
 
         fireRatio = initialFireRatio + fireRatioUpgradesSum;
+
+        fireRatioShop.GetComponent<fireRatioShop>().attFireRShop();
     }
 
     public void maxHealthUp()
