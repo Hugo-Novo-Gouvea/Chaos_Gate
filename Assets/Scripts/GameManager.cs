@@ -1,19 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    private GameObject Spawn, coinText;
+
     int maxHealth, initialMaxHealth, maxHealthUpgradesSum;
     int damage, initialDamage, damageUpgradesSum;
     float speed, initialSpeed, speedUpgradesSum;
     float gain, initialGain, gainUpgradesSum;
+    int numEnemyDead = 0, currentLevel = 0;
 
-    public int max_HealthUpgrades, maxDamageUpgrades, maxSpeedUpgrades, maxGainUpgrades;
+    int numLevels;
 
-    public int[] maxHealthUpgrades, damageUpgrades;
+    public int[] levels, maxHealthUpgrades, damageUpgrades;
     public float[] speedUpgrades, gainUpgrades;
 
     public float coin;
@@ -39,40 +43,23 @@ public class GameManager : MonoBehaviour
         initialSpeed = 3;
         initialGain = 1;
 
-        maxHealthUpgrades = new int[max_HealthUpgrades];
-        damageUpgrades = new int[maxDamageUpgrades];
-        speedUpgrades = new float[maxSpeedUpgrades];
-        gainUpgrades = new float[maxGainUpgrades];
-
-        for (int i = 0; i < max_HealthUpgrades; i++)
-        {
-            maxHealthUpgrades[i] = 0;
-        }
-        for (int i = 0; i < maxDamageUpgrades; i++)
-        {
-            damageUpgrades[i] = 0;
-        }
-        for (int i = 0; i < maxSpeedUpgrades; i++)
-        {
-            speedUpgrades[i] = 0;
-        }
-        for (int i = 0; i < maxGainUpgrades; i++)
-        {
-            gainUpgrades[i] = 0;
-        }
+        numLevels = levels.Length;
 
         maxHealth = initialMaxHealth;
         damage = initialDamage;
         speed = initialSpeed;
         gain = initialGain;
+
+        Spawn = GameObject.Find("Spawns");
+        coinText = GameObject.Find("TextCoin");
     }
 
 
-    public void maxHealthUp()
+    public void maxHealthUp(int level)
     {
         maxHealthUpgradesSum = 0;
 
-        for (int i = 0; i < max_HealthUpgrades; i++)
+        for (int i = 0; i <= level; i++)
         {
             maxHealthUpgradesSum += maxHealthUpgrades[i];
         }
@@ -80,11 +67,11 @@ public class GameManager : MonoBehaviour
         maxHealth = initialMaxHealth + maxHealthUpgradesSum;
     }
 
-    public void damageUp()
+    public void damageUp(int level)
     {
         damageUpgradesSum = 0;
 
-        for (int i = 0; i < maxDamageUpgrades; i++)
+        for (int i = 0; i <= level; i++)
         {
             damageUpgradesSum += damageUpgrades[i];
         }
@@ -92,11 +79,11 @@ public class GameManager : MonoBehaviour
         damage = initialDamage + damageUpgradesSum;
     }
 
-    public void speedUp()
+    public void speedUp(int level)
     {
         speedUpgradesSum = 0;
 
-        for (int i = 0; i < maxSpeedUpgrades; i++)
+        for (int i = 0; i <= level; i++)
         {
             speedUpgradesSum += speedUpgrades[i];
         }
@@ -104,11 +91,11 @@ public class GameManager : MonoBehaviour
         speed = initialSpeed + speedUpgradesSum;
     }
 
-    public void gainUp()
+    public void gainUp(int level)
     {
         gainUpgradesSum = 0;
 
-        for (int i = 0; i < maxGainUpgrades; i++)
+        for (int i = 0; i <= level; i++)
         {
             gainUpgradesSum += gainUpgrades[i];
         }
@@ -131,8 +118,31 @@ public class GameManager : MonoBehaviour
         return speed;
     }
 
+    public float getNumEnemyDead()
+    {
+        return numEnemyDead;
+    }
+
     public void enemyDead()
     {
         coin += gain;
+        numEnemyDead ++;
+        coinText.GetComponent<Text>().text = coin.ToString();
+    }
+
+    public void resetEnemy()
+    {
+        numEnemyDead = 0;
+    }
+
+    public void newHorde()
+    {
+        maxHealthUp(currentLevel);
+        damageUp(currentLevel);
+        speedUp(currentLevel);
+        gainUp(currentLevel);
+        Spawn.GetComponent<SpawnEnemy>().attEnemyNum(levels[currentLevel]);
+        currentLevel ++;
+
     }
 }

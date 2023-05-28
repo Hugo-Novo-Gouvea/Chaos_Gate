@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject enemy, gameMan;
+    public GameObject enemy, gameMan, portal;
     public Transform[] Spawns;
 
     private int enemyNumMax = 0, enemyNum, Rn;
@@ -17,7 +17,8 @@ public class SpawnEnemy : MonoBehaviour
     void Start()
     {
         gameMan = GameObject.FindWithTag("GameController");
-        attEnemyNum(10);
+        portal = GameObject.Find("PortalStairD");
+        portal.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,13 +34,11 @@ public class SpawnEnemy : MonoBehaviour
             time2 = Time.time;
         }
 
-        if(enemyNum <= enemyNumMax - 5 && speed)
+        if(gameMan.GetComponent<GameManager>().getNumEnemyDead() >= enemyNumMax)
         {
-            timeSpawn = timeSpawn/2;
-            speed = false;
+            portal.SetActive(true);
+            gameMan.GetComponent<GameManager>().resetEnemy();
         }
-
-
 
     }
 
@@ -47,10 +46,6 @@ public class SpawnEnemy : MonoBehaviour
     {
         enemyNumMax = num;
         enemyNum = enemyNumMax;
-        gameMan.GetComponent<GameManager>().maxHealthUp();
-        gameMan.GetComponent<GameManager>().damageUp();
-        gameMan.GetComponent<GameManager>().speedUp();
-        gameMan.GetComponent<GameManager>().gainUp();
     }
 
     void Spawn(Transform pos)
