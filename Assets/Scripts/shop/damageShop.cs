@@ -26,7 +26,14 @@ public class damageShop : MonoBehaviour
     public void attDamageShop()
     {
         currentUpgrade++;
-        textShop.GetComponent<Text>().text = cost[currentUpgrade].ToString();
+        if(currentUpgrade < maxUpgrades)
+        {
+            textShop.GetComponent<Text>().text = cost[currentUpgrade].ToString();
+        }
+        else
+        {
+            textShop.GetComponent<Text>().text = "------------";
+        }
     }
 
     public void interact()

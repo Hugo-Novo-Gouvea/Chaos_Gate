@@ -110,7 +110,7 @@ public class playerStatus : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.E) && canBuyHealth)
         {
-            maxHealthUp();
+            healthShop.GetComponent<healthShop>().interact();
         }
     }
 
@@ -136,6 +136,10 @@ public class playerStatus : MonoBehaviour
     {
         fireRatioUpgradesSum = 0;
 
+        fireRatioUpgrades[fireRatioIncrement] = nFireRatioUpgrades.upgrades[damageIncrement];
+
+        fireRatioIncrement++;
+
         for (int i = 0; i < maxFireRatioUpgrades; i++)
         {
             fireRatioUpgradesSum += fireRatioUpgrades[i];
@@ -150,12 +154,18 @@ public class playerStatus : MonoBehaviour
     {
         maxHealthUpgradesSum = 0;
 
+        maxHealthUpgrades[healthIncrement] = nHealthUpgrades.upgrades[damageIncrement];
+
+        healthIncrement++;
+
         for (int i = 0; i < max_HealthUpgrades; i++)
         {
             maxHealthUpgradesSum += maxHealthUpgrades[i];
         }
 
         maxHealth = initialMaxHealth + maxHealthUpgradesSum;
+
+        healthShop.GetComponent<healthShop>().attHealthShop();
     }
 
     public int getFireDamage()

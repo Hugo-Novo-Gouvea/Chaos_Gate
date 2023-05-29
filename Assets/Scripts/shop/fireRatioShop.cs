@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class fireRatioShop : MonoBehaviour
 {
-    public int[] upgrades,cost;
+    public float[] upgrades;
+    public int[] cost;
     public int maxUpgrades;
 
     private GameObject textShop, imageShop;
@@ -26,7 +27,14 @@ public class fireRatioShop : MonoBehaviour
     public void attFireRShop()
     {
         currentUpgrade++;
-        textShop.GetComponent<Text>().text = cost[currentUpgrade].ToString();
+        if(currentUpgrade < maxUpgrades)
+        {
+            textShop.GetComponent<Text>().text = cost[currentUpgrade].ToString();
+        }
+        else
+        {
+            textShop.GetComponent<Text>().text = "------------";
+        }
     }
 
     public void interact()
