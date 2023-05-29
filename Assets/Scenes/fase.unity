@@ -18161,7 +18161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 1585302522}
-  invulnerableTime: 0.2
+  invulnerableTime: 0.05
   cenaMorte: GameOver
 --- !u!114 &1488266156
 MonoBehaviour:
@@ -18191,7 +18191,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.01
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0

@@ -22,6 +22,11 @@ public class statusEnemy : MonoBehaviour
             gameMan.GetComponent<GameManager>().enemyDead();
             Destroy(gameObject);
         }
+    }
 
+    public void dead()
+    {
+        gameMan.GetComponent<GameManager>().enemyDead();
+        Destroy(gameObject);
     }
 }

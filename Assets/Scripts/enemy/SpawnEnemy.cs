@@ -47,6 +47,7 @@ public class SpawnEnemy : MonoBehaviour
     {
         enemyNumMax = num;
         enemyNum = enemyNumMax;
+        timeSpawn = gameMan.GetComponent<GameManager>().speedSpawn;
     }
 
     void Spawn(Transform pos)

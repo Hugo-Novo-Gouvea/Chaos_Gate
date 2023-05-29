@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     public float[] speedUpgrades, gainUpgrades;
 
     public float coin;
-
+    public float speedSpawn;
     
     
     void Start()
@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
         initialDamage = 1;
         initialSpeed = 3;
         initialGain = 1;
+        speedSpawn = 1;
 
         numLevels = levels.Length;
 
@@ -187,6 +188,10 @@ public class GameManager : MonoBehaviour
         damageUp(currentLevel);
         speedUp(currentLevel);
         gainUp(currentLevel);
+        if(currentLevel%5 == 0)
+        {
+            speedSpawn = speedSpawn*0.75f;
+        }
         Spawn.GetComponent<SpawnEnemy>().attEnemyNum(levels[currentLevel]);
         currentLevel ++;
 

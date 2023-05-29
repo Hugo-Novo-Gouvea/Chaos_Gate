@@ -143,7 +143,7 @@ public class playerStatus : MonoBehaviour
         {
             fireRatioUpgradesSum = 0;
 
-            fireRatioUpgrades[fireRatioIncrement] = nFireRatioUpgrades.upgrades[damageIncrement];
+            fireRatioUpgrades[fireRatioIncrement] = nFireRatioUpgrades.upgrades[fireRatioIncrement];
 
             fireRatioIncrement++;
 
@@ -166,7 +166,7 @@ public class playerStatus : MonoBehaviour
         {
             maxHealthUpgradesSum = 0;
 
-            maxHealthUpgrades[healthIncrement] = nHealthUpgrades.upgrades[damageIncrement];
+            maxHealthUpgrades[healthIncrement] = nHealthUpgrades.upgrades[healthIncrement];
 
             healthIncrement++;
 
@@ -176,7 +176,7 @@ public class playerStatus : MonoBehaviour
             }
 
             maxHealth = initialMaxHealth + maxHealthUpgradesSum;
-            currentHealth += maxHealthUpgrades[healthIncrement];
+            currentHealth += maxHealthUpgrades[healthIncrement-1];
 
             float current = currentHealth,max = maxHealth;
             Vector3 ScalaHealthBar = healthBar.rectTransform.localScale;
@@ -222,6 +222,7 @@ public class playerStatus : MonoBehaviour
         if(collider.gameObject.tag == "Enemy")
         {
             takeDamage(gameMan.GetComponent<GameManager>().getDamage());
+            collider.GetComponent<statusEnemy>().dead();
         }
         if(collider.gameObject.name == "damageShop")
         {
