@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject enemy, gameMan, portal;
+    public GameObject enemy, gameMan, portal, player;
     public Transform[] Spawns;
 
     private int enemyNumMax = 0, enemyNum, Rn;
-    private bool speed = true;
 
     float time1, time2;
 
@@ -16,6 +15,7 @@ public class SpawnEnemy : MonoBehaviour
 
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
         gameMan = GameObject.FindWithTag("GameController");
         portal = GameObject.Find("PortalStairD");
         portal.SetActive(false);
@@ -38,6 +38,7 @@ public class SpawnEnemy : MonoBehaviour
         {
             portal.SetActive(true);
             gameMan.GetComponent<GameManager>().resetEnemy();
+            player.GetComponent<playerStatus>().heal();
         }
 
     }

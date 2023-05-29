@@ -127,6 +127,11 @@ public class GameManager : MonoBehaviour
     {
         coin += gain;
         numEnemyDead ++;
+        attText();
+    }
+
+    public void attText()
+    {
         coinText.GetComponent<Text>().text = coin.ToString();
     }
 

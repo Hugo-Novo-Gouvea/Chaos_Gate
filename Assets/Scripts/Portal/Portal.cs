@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
-    private Transform player,camera;
+    private Transform player, camera;
     private GameObject gameMan;
     
     

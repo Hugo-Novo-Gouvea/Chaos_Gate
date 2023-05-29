@@ -49,4 +49,9 @@ public class damageShop : MonoBehaviour
             imageStatus = false;
         }
     }
+
+    public int getCurrentCost()
+    {
+        return cost[currentUpgrade];
+    }
 }

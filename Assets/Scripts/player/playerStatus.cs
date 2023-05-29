@@ -116,62 +116,77 @@ public class playerStatus : MonoBehaviour
 
     public void fireDamageUp()
     {
-        fireDamageUpgradesSum = 0;
-
-        fireDamageUpgrades[damageIncrement] = nDamageUpgrades.upgrades[damageIncrement];
-
-        damageIncrement++;
-
-        for (int i = 0; i < maxDamageUpgrades; i++)
+        if(gameMan.GetComponent<GameManager>().coin >= damageShop.GetComponent<damageShop>().getCurrentCost())
         {
-            fireDamageUpgradesSum += fireDamageUpgrades[i];
-        }
-        
-        fireDamage = initialFireDamage + fireDamageUpgradesSum;
+            fireDamageUpgradesSum = 0;
 
-        damageShop.GetComponent<damageShop>().attDamageShop();
+            fireDamageUpgrades[damageIncrement] = nDamageUpgrades.upgrades[damageIncrement];
+
+            damageIncrement++;
+
+            for (int i = 0; i < maxDamageUpgrades; i++)
+            {
+                fireDamageUpgradesSum += fireDamageUpgrades[i];
+            }
+            
+            fireDamage = initialFireDamage + fireDamageUpgradesSum;
+
+            gameMan.GetComponent<GameManager>().coin -= damageShop.GetComponent<damageShop>().getCurrentCost();
+            gameMan.GetComponent<GameManager>().attText();
+            damageShop.GetComponent<damageShop>().attDamageShop();
+        }
     }
 
     public void fireRatioUp()
     {
-        fireRatioUpgradesSum = 0;
-
-        fireRatioUpgrades[fireRatioIncrement] = nFireRatioUpgrades.upgrades[damageIncrement];
-
-        fireRatioIncrement++;
-
-        for (int i = 0; i < maxFireRatioUpgrades; i++)
+        if(gameMan.GetComponent<GameManager>().coin >= fireRatioShop.GetComponent<fireRatioShop>().getCurrentCost())
         {
-            fireRatioUpgradesSum += fireRatioUpgrades[i];
+            fireRatioUpgradesSum = 0;
+
+            fireRatioUpgrades[fireRatioIncrement] = nFireRatioUpgrades.upgrades[damageIncrement];
+
+            fireRatioIncrement++;
+
+            for (int i = 0; i < maxFireRatioUpgrades; i++)
+            {
+                fireRatioUpgradesSum += fireRatioUpgrades[i];
+            }
+
+            fireRatio = initialFireRatio + fireRatioUpgradesSum;
+
+            gameMan.GetComponent<GameManager>().coin -= fireRatioShop.GetComponent<fireRatioShop>().getCurrentCost();
+            gameMan.GetComponent<GameManager>().attText();
+            fireRatioShop.GetComponent<fireRatioShop>().attFireRShop();
         }
-
-        fireRatio = initialFireRatio + fireRatioUpgradesSum;
-
-        fireRatioShop.GetComponent<fireRatioShop>().attFireRShop();
     }
 
     public void maxHealthUp()
     {
-        maxHealthUpgradesSum = 0;
-
-        maxHealthUpgrades[healthIncrement] = nHealthUpgrades.upgrades[damageIncrement];
-
-        healthIncrement++;
-
-        for (int i = 0; i < max_HealthUpgrades; i++)
+        if(gameMan.GetComponent<GameManager>().coin >= healthShop.GetComponent<healthShop>().getCurrentCost())
         {
-            maxHealthUpgradesSum += maxHealthUpgrades[i];
+            maxHealthUpgradesSum = 0;
+
+            maxHealthUpgrades[healthIncrement] = nHealthUpgrades.upgrades[damageIncrement];
+
+            healthIncrement++;
+
+            for (int i = 0; i < max_HealthUpgrades; i++)
+            {
+                maxHealthUpgradesSum += maxHealthUpgrades[i];
+            }
+
+            maxHealth = initialMaxHealth + maxHealthUpgradesSum;
+            currentHealth++;
+
+            float current = currentHealth,max = maxHealth;
+            Vector3 ScalaHealthBar = healthBar.rectTransform.localScale;
+            ScalaHealthBar.x = currentHealth/max;
+            healthBar.rectTransform.localScale = ScalaHealthBar;
+
+            gameMan.GetComponent<GameManager>().coin -= healthShop.GetComponent<healthShop>().getCurrentCost();
+            gameMan.GetComponent<GameManager>().attText();
+            healthShop.GetComponent<healthShop>().attHealthShop();
         }
-
-        maxHealth = initialMaxHealth + maxHealthUpgradesSum;
-        currentHealth++;
-
-        float current = currentHealth,max = maxHealth;
-        Vector3 ScalaHealthBar = healthBar.rectTransform.localScale;
-        ScalaHealthBar.x = currentHealth/max;
-        healthBar.rectTransform.localScale = ScalaHealthBar;
-
-        healthShop.GetComponent<healthShop>().attHealthShop();
     }
 
     public int getFireDamage()
@@ -223,6 +238,15 @@ public class playerStatus : MonoBehaviour
             canBuyHealth= true;
             EButtonH.SetActive(true);
         }
+    }
+
+    public void heal()
+    {
+        currentHealth = maxHealth;
+        float current = currentHealth,max = maxHealth;
+        Vector3 ScalaHealthBar = healthBar.rectTransform.localScale;
+        ScalaHealthBar.x = currentHealth/max;
+        healthBar.rectTransform.localScale = ScalaHealthBar;
     }
 
     void OnTriggerExit2D(Collider2D collider)

@@ -49,4 +49,9 @@ public class healthShop : MonoBehaviour
             imageStatus = false;
         }
     }
+
+    public int getCurrentCost()
+    {
+        return cost[currentUpgrade];
+    }
 }

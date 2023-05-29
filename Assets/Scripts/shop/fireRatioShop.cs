@@ -50,4 +50,10 @@ public class fireRatioShop : MonoBehaviour
             imageStatus = false;
         }
     }
+
+    public int getCurrentCost()
+    {
+        return cost[currentUpgrade];
+    }
+
 }
