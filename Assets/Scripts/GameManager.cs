@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    private GameObject Spawn, coinText;
+    private GameObject Spawn, coinText, waveText;
+
+    private bool inCity = true;
 
     int maxHealth, initialMaxHealth, maxHealthUpgradesSum;
     int damage, initialDamage, damageUpgradesSum;
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
 
         Spawn = GameObject.Find("Spawns");
         coinText = GameObject.Find("TextCoin");
+        waveText = GameObject.Find("TextWave");
     }
 
 
@@ -138,5 +141,12 @@ public class GameManager : MonoBehaviour
         Spawn.GetComponent<SpawnEnemy>().attEnemyNum(levels[currentLevel]);
         currentLevel ++;
 
+        waveText.GetComponent<Text>().text = "Wave: " + currentLevel.ToString();
+    }
+
+    public bool getCity()
+    {
+        inCity = !inCity;
+        return !inCity;
     }
 }

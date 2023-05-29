@@ -18,7 +18,7 @@ public class playerStatus : MonoBehaviour
     private Vector3 ScalaHealthBar;
 
     
-    public int fireDamage, initialFireDamage, fireDamageUpgradesSum; 
+    int fireDamage, initialFireDamage, fireDamageUpgradesSum; 
     int currentHealth, maxHealth, initialMaxHealth, maxHealthUpgradesSum;
     float fireRatio, initialFireRatio, fireRatioUpgradesSum;
 
@@ -27,8 +27,8 @@ public class playerStatus : MonoBehaviour
     int damageIncrement, fireRatioIncrement, healthIncrement;
     bool canBuyDamage = false, canBuyFireRatio = false, canBuyHealth = false;
 
-    public int[] fireDamageUpgrades, maxHealthUpgrades;
-    public float[] fireRatioUpgrades;
+    int[] fireDamageUpgrades, maxHealthUpgrades;
+    float[] fireRatioUpgrades;
 
     public string cenaMorte;
 
