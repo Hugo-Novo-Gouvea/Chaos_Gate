@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     float gain, initialGain, gainUpgradesSum;
     int numEnemyDead = 0, currentLevel = 0;
 
-    int numLevels;
+    public int numLevels;
 
     public int[] levels, maxHealthUpgrades, damageUpgrades;
     public float[] speedUpgrades, gainUpgrades;
@@ -40,6 +40,55 @@ public class GameManager : MonoBehaviour
         damage = initialDamage;
         speed = initialSpeed;
         gain = initialGain;
+
+        maxHealthUpgrades = new int[numLevels];
+        damageUpgrades = new int[numLevels];
+        speedUpgrades = new float[numLevels];
+        gainUpgrades = new float[numLevels];
+
+        int auxH1 = 10,auxH2 =2;
+        int auxD = 4;
+        int auxG = 4;
+
+        for(int i = 0;i<numLevels;i++)
+        {
+            levels[i] = (i+1)*10;
+
+            if(i == 2)
+            {
+                maxHealthUpgrades[i] = 1;
+            }
+
+            if(i%2==0 && i >2 && i < 27)
+            {
+                if(i >= auxH1)
+                {
+                    auxH2 = auxH2 * 2;
+                    auxH1 += 10;
+                }
+                maxHealthUpgrades[i] = auxH2;
+                
+            }
+
+            if(i==auxD && i<20)
+            {
+                damageUpgrades[i] = 1;
+                auxD += 5;
+            }
+            else
+            {
+                damageUpgrades[i] = 0;
+            }
+
+            speedUpgrades[i] = 0.05f;
+
+            if(i == auxG && i < 17)
+            {   
+                gainUpgrades[i] = 1;
+                auxG += 5;
+            }
+            
+        }
 
         Spawn = GameObject.Find("Spawns");
         coinText = GameObject.Find("TextCoin");

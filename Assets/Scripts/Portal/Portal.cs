@@ -29,7 +29,7 @@ public class Portal : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collider)
     {
-        if(time1>=time2)
+        if(time1>=time2 && collider.gameObject.tag == "Player")
         {
             Vector2 pos = new Vector2(exitPortal.GetComponent<Transform>().position.x + 3f,exitPortal.GetComponent<Transform>().position.y);
             player.position = pos;

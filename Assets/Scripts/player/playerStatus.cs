@@ -176,7 +176,7 @@ public class playerStatus : MonoBehaviour
             }
 
             maxHealth = initialMaxHealth + maxHealthUpgradesSum;
-            currentHealth++;
+            currentHealth += maxHealthUpgrades[healthIncrement];
 
             float current = currentHealth,max = maxHealth;
             Vector3 ScalaHealthBar = healthBar.rectTransform.localScale;
